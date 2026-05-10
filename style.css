@@ -1763,3 +1763,29 @@ tr:hover {
     padding-top: 4px;
   }
 }
+/* ===== FIX — długie opisy w kafelkach cen prywatnych ===== */
+
+@media (min-width: 901px) {
+  .private-result-group .result-box,
+  .result-box.private-small {
+    min-height: 132px;
+    height: auto;
+    padding: 16px 18px 18px;
+  }
+
+  .result-box.private-small span,
+  .private-result-group .result-box span {
+    min-height: 54px;
+    margin-bottom: 8px;
+    font-size: 0.78rem;
+    line-height: 1.22;
+    display: block;
+  }
+
+  .result-box.private-small strong,
+  .private-result-group .result-box strong {
+    display: block;
+    font-size: 1.34rem;
+    line-height: 1.15;
+  }
+}
