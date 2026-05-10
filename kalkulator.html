@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Kalkulator dopłat do sanatorium z NFZ</title>
-  <meta
-    name="description"
-    content="Kalkulator orientacyjnej dopłaty pacjenta do sanatorium z NFZ oraz szacunkowego finansowania pobytu przez NFZ."
-  />
+  <meta name="description"
+    content="Kalkulator orientacyjnej dopłaty pacjenta do sanatorium z NFZ oraz szacunkowego finansowania pobytu przez NFZ." />
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="article-hero">
     <div class="article-hero-inner">
-      <p class="eyebrow">Sanatorium z NFZ • kalkulator dopłat</p>
-      <h1>Ile kosztuje pobyt w sanatorium z NFZ?</h1>
+      <p class="eyebrow">Kalkulator sanatorium NFZ • dopłata pacjenta • koszt pobytu</p>
+      <h1>Kalkulator sanatorium NFZ — ile dopłaca pacjent? ile dopłaca NFZ?</h1>
       <p>
-        Sprawdź orientacyjną dopłatę pacjenta oraz — po wyborze ośrodka —
-        szacunkowe finansowanie pobytu przez NFZ.
+        Oblicz orientacyjny koszt pobytu w sanatorium z NFZ, sprawdź dopłatę pacjenta,
+        szacunkowe finansowanie NFZ i porównaj z ceną pobytu prywatnego.
       </p>
     </div>
   </header>
@@ -28,15 +28,18 @@
     <p><a href="index.html">← Wróć do strony głównej</a></p>
 
     <section class="content-card calculator-card">
-      <h2>Kalkulator dopłaty pacjenta i finansowania NFZ</h2>
+      <h2>Kalkulator kosztów pobytu w sanatorium</h2>
 
       <p>
-        Wybierz rodzaj pobytu, sezon i typ pokoju.
+        Wybierz rodzaj pobytu, sezon i typ pokoju. Kalkulator pokaże orientacyjną dopłatę pacjenta,
+        szacunkowe finansowanie NFZ oraz porównanie z przeciętnym kosztem pobytu prywatnego.
       </p>
 
       <p>
-        Możesz też wybrać województwo, miejscowość i konkretny ośrodek — wtedy kalkulator pokaże także szacunkową
-        kwotę finansowania pobytu przez NFZ. Możesz najpierw wybrać województwo i miejscowość albo od razu wybrać sanatorium z listy.
+        Możesz liczyć koszty dla całej Polski, wybranego województwa albo konkretnego ośrodka.
+        Jeśli nie wybierzesz sanatorium, używana jest średnia dla Polski lub wybranego województwa.
+        Po wyborze konkretnego ośrodka kalkulator pokaże stawkę NFZ wynikającą z danych o umowie z NFZ, jeśli jest
+        dostępna.
       </p>
 
       <div class="calculator-grid calculator-grid-location">
@@ -129,7 +132,7 @@
         </div>
 
         <div class="result-box highlight result-total-value">
-          <span>Razem  wartość pobytu NFZ</span>
+          <span>Razem wartość pobytu NFZ</span>
           <strong id="totalStayValueResult">—</strong>
         </div>
 
@@ -160,7 +163,7 @@
         </p>
       </div>
 
-     <section class="calculation-table-wrapper hidden-feature">
+      <section class="calculation-table-wrapper hidden-feature">
         <table class="payments-table calculation-table">
           <thead>
             <tr>
@@ -175,17 +178,17 @@
               <td id="daysDetails">—</td>
               <td>Wybrany rodzaj pobytu.</td>
             </tr>
-<tr>
-  <td>Rodzaj pobytu</td>
-  <td id="stayTypeDetails">—</td>
-  <td>Wybrany rodzaj pobytu.</td>
-</tr>
+            <tr>
+              <td>Rodzaj pobytu</td>
+              <td id="stayTypeDetails">—</td>
+              <td>Wybrany rodzaj pobytu.</td>
+            </tr>
 
-<tr>
-  <td>Typ pokoju</td>
-  <td id="roomTypeDetails">—</td>
-  <td>Wybrany „Typ pokoju”.</td>
-</tr>
+            <tr>
+              <td>Typ pokoju</td>
+              <td id="roomTypeDetails">—</td>
+              <td>Wybrany „Typ pokoju”.</td>
+            </tr>
             <tr>
               <td>Dzienna dopłata pacjenta</td>
               <td id="dailyFeeDetails">—</td>
@@ -213,7 +216,7 @@
             <tr>
               <td>Razemw artość pobytu NFZ</td>
               <td id="totalStayValueDetails">—</td>
-              <td>Dopłata pacjenta +  finansowanie NFZ.</td>
+              <td>Dopłata pacjenta + finansowanie NFZ.</td>
             </tr>
 
             <tr>
@@ -221,7 +224,7 @@
               <td id="privateDailyDetails">—</td>
               <td>
                 Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
-                Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska. 
+                Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska.
                 Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
               </td>
             </tr>
@@ -243,9 +246,31 @@
         do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
         pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
       </p>
+
+      <details class="private-sources-details" id="privateSourcesDetails">
+        <summary>
+          <span class="private-sources-summary-icon">i</span>
+          <span>
+            <strong>Skąd policzono średnie ceny prywatne?</strong>
+            <small>Kliknij, aby zobaczyć ośrodków użytych do obliczeń.</small>
+          </span>
+        </summary>
+
+        <div class="private-sources-content">
+          <p id="privateSourcesIntro">
+            Lista ośrodków użytych do obliczenia średniej ceny prywatnego pobytu.
+          </p>
+
+          <ul id="privateSourcesList" class="private-sources-list"></ul>
+          <button type="button" id="togglePrivateSourcesButton" class="private-sources-toggle">
+            Pokaż całą listę źródeł…
+          </button>
+        </div>
+      </details>
     </section>
   </main>
 
   <script src="kalkulator.js"></script>
 </body>
+
 </html>

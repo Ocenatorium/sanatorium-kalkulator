@@ -1,6 +1,7 @@
 let sanatoria = [];
 let patientFees = [];
 let privatePriceSummary = null;
+let privatePriceSources = [];
 
 const voivodeshipSelect = document.getElementById("voivodeshipSelect");
 const citySelect = document.getElementById("citySelect");
@@ -37,6 +38,15 @@ const privateTotalDetails = document.getElementById("privateTotalDetails");
 const comparisonBox = document.getElementById("comparisonBox");
 const comparisonValue = document.getElementById("comparisonValue");
 const comparisonText = document.getElementById("comparisonText");
+
+const privateSourcesDetails = document.getElementById("privateSourcesDetails");
+const privateSourcesIntro = document.getElementById("privateSourcesIntro");
+const privateSourcesList = document.getElementById("privateSourcesList");
+
+const togglePrivateSourcesButton = document.getElementById("togglePrivateSourcesButton");
+
+let showAllPrivateSources = false;
+let lastPrivateSourcesToRender = [];
 
 const STAY_CONFIGS = {
     sanatorium_21: {
@@ -694,6 +704,227 @@ function updateComparisonBox(nfzTotalValue, privateTotalValue) {
     );
 }
 
+function getSourceField(item, possibleNames) {
+    for (const name of possibleNames) {
+        if (item[name] !== null && item[name] !== undefined && item[name] !== "") {
+            return item[name];
+        }
+    }
+
+    return "";
+}
+
+function normalizeSourceText(value) {
+    return String(value || "").trim();
+}
+
+function getPrivateSourceVoivodeship(item) {
+    return normalizeSourceText(
+        getSourceField(item, [
+            "voivodeship",
+            "wojewodztwo",
+            "województwo",
+            "region"
+        ])
+    );
+}
+
+function getPrivateSourceSeasonKey(item) {
+    const rawSeason = normalizeText(
+        getSourceField(item, [
+            "season",
+            "season_key",
+            "sezon",
+            "private_season"
+        ])
+    );
+
+    if (!rawSeason) {
+        return "";
+    }
+
+    if (
+        rawSeason.includes("high") ||
+        rawSeason.includes("wysoki") ||
+        rawSeason.includes("maj") ||
+        rawSeason.includes("wrzes")
+    ) {
+        return "high";
+    }
+
+    if (
+        rawSeason.includes("low") ||
+        rawSeason.includes("niski") ||
+        rawSeason.includes("pazdzier") ||
+        rawSeason.includes("kwiecien")
+    ) {
+        return "low";
+    }
+
+    return "";
+}
+
+function normalizePrivateSource(item) {
+    const name = normalizeSourceText(
+        getSourceField(item, [
+            "sanatorium_name",
+            "name",
+            "object_name",
+            "provider_name",
+            "nazwa",
+            "osrodek",
+            "ośrodek"
+        ])
+    );
+
+    const city = normalizeSourceText(
+        getSourceField(item, [
+            "city",
+            "sanatorium_city",
+            "miejscowosc",
+            "miejscowość"
+        ])
+    );
+
+    const voivodeship = getPrivateSourceVoivodeship(item);
+
+    const selectedSeasonKey = getPrivateSeasonKey();
+
+    const price = selectedSeasonKey === "high"
+        ? getSourceField(item, [
+            "high_season_price_per_day_pln",
+            "reference_price_per_day_pln",
+            "price_per_day_pln",
+            "average_price_per_day_pln",
+            "daily_price_pln",
+            "price_pln",
+            "cena_za_dobe",
+            "cena_doba"
+        ])
+        : getSourceField(item, [
+            "low_season_price_per_day_pln",
+            "reference_price_per_day_pln",
+            "price_per_day_pln",
+            "average_price_per_day_pln",
+            "daily_price_pln",
+            "price_pln",
+            "cena_za_dobe",
+            "cena_doba"
+        ]);
+
+    const url = normalizeSourceText(
+        getSourceField(item, [
+            "source_url",
+            "url",
+            "link",
+            "source"
+        ])
+    );
+
+    return {
+        name: name || "Ośrodek bez nazwy",
+        city,
+        voivodeship,
+        price,
+        url,
+        seasonKey: getPrivateSourceSeasonKey(item)
+    };
+}
+
+function renderPrivateSourcesList(sources) {
+    if (!privateSourcesList || !togglePrivateSourcesButton) {
+        return;
+    }
+
+    privateSourcesList.innerHTML = "";
+
+    const visibleSources = showAllPrivateSources
+        ? sources
+        : sources.slice(0, 8);
+
+    visibleSources.forEach(source => {
+        const li = document.createElement("li");
+
+        li.textContent = [source.name, source.city]
+            .filter(Boolean)
+            .join(" — ");
+
+        privateSourcesList.appendChild(li);
+    });
+
+    if (sources.length <= 8) {
+        togglePrivateSourcesButton.style.display = "none";
+        return;
+    }
+
+    togglePrivateSourcesButton.style.display = "inline-flex";
+    togglePrivateSourcesButton.textContent = showAllPrivateSources
+        ? "Pokaż krótszą listę"
+        : `Pokaż całą listę źródeł… (${sources.length})`;
+}
+
+function renderPrivateSources(privatePriceInfo) {
+    if (!privateSourcesDetails || !privateSourcesList || !privateSourcesIntro) {
+        return;
+    }
+
+    privateSourcesList.innerHTML = "";
+
+    if (!privatePriceSources || privatePriceSources.length === 0) {
+        privateSourcesIntro.textContent =
+            "Brak osobnego pliku ze źródłami cen prywatnych.";
+        return;
+    }
+
+    const selectedVoivodeship = privatePriceInfo?.voivodeship || "POLSKA";
+    const selectedSeasonKey = getPrivateSeasonKey();
+
+    let normalizedSources = privatePriceSources.map(normalizePrivateSource);
+
+    let filteredSources = normalizedSources.filter(source => {
+        const matchesVoivodeship =
+            selectedVoivodeship === "POLSKA" ||
+            !source.voivodeship ||
+            source.voivodeship === selectedVoivodeship;
+
+        const matchesSeason =
+            !source.seasonKey || source.seasonKey === selectedSeasonKey;
+
+        return matchesVoivodeship && matchesSeason;
+    });
+
+    if (filteredSources.length === 0) {
+        filteredSources = normalizedSources;
+    }
+
+    const uniqueSources = [];
+    const seen = new Set();
+
+    filteredSources.forEach(source => {
+        const key = `${source.name}|${source.city}|${source.voivodeship}`;
+
+        if (!seen.has(key)) {
+            seen.add(key);
+            uniqueSources.push(source);
+        }
+    });
+
+    privateSourcesIntro.textContent =
+        selectedVoivodeship === "POLSKA"
+            ? "Średnia cena prywatna jest liczona na podstawie zebranych cenników pobytów prywatnych z różnych województw."
+            : `Średnia cena prywatna jest liczona na podstawie zebranych cenników pobytów prywatnych dla woj. ${selectedVoivodeship}.`;
+
+    lastPrivateSourcesToRender = uniqueSources;
+    showAllPrivateSources = false;
+    renderPrivateSourcesList(lastPrivateSourcesToRender);
+
+    if (uniqueSources.length > 30) {
+        const li = document.createElement("li");
+        li.textContent = `…oraz ${uniqueSources.length - 30} kolejnych pozycji.`;
+        privateSourcesList.appendChild(li);
+    }
+}
+
 function calculateFee() {
     const stayConfig = getStayConfig();
     const days = stayConfig.days;
@@ -730,6 +961,7 @@ function calculateFee() {
 
         updatePrivateResultLabels(null);
         updateComparisonBox(null, null);
+        renderPrivateSources(null);
         return;
     }
 
@@ -751,6 +983,7 @@ function calculateFee() {
 
     const privatePriceInfo = getPrivatePriceInfo(days, selectedSanatorium);
     updatePrivateResultLabels(privatePriceInfo);
+    renderPrivateSources(privatePriceInfo);
 
     setText(patientTotalResult, formatPLN(patientTotal));
     setText(nfzDailyResult, hasNfzDailyRate ? formatPLN(nfzDailyRate) : "—");
@@ -796,7 +1029,7 @@ function calculateFee() {
         privatePriceInfo ? formatPLN(privatePriceInfo.total) : "—"
     );
 
-     const comparisonNfzTotalValue = getComparisonNfzTotalValue(
+    const comparisonNfzTotalValue = getComparisonNfzTotalValue(
         stayConfig,
         days,
         nfzDailyRate
@@ -818,29 +1051,142 @@ async function fetchJson(path) {
     return response.json();
 }
 
+async function fetchOptionalJson(path) {
+    try {
+        return await fetchJson(path);
+    } catch (error) {
+        console.warn(`Nie udało się wczytać opcjonalnego pliku ${path}`, error);
+        return [];
+    }
+}
+function getDefaultSeasonForToday() {
+    const today = new Date();
+    const month = today.getMonth() + 1; // 1–12
+    const day = today.getDate();
+
+    // Sezon wysoki NFZ: 1 maja – 30 września
+    const isHighSeason =
+        (month > 5 && month < 9) ||
+        (month === 5 && day >= 1) ||
+        (month === 9 && day <= 30);
+
+    return isHighSeason ? "high" : "low";
+}
+
+function setDefaultRoomType() {
+    if (!roomSelect || !roomSelect.options.length) {
+        return;
+    }
+
+    const options = [...roomSelect.options];
+
+    const scoredOptions = options.map(option => {
+        const text = normalizeText(`${option.textContent} ${option.value}`);
+
+        let score = 0;
+
+        // pokój 2-osobowy / dwuosobowy
+        if (
+            text.includes("dwuosobow") ||
+            text.includes("2-os") ||
+            text.includes("2 os") ||
+            text.includes("2os") ||
+            text.includes("ii")
+        ) {
+            score += 10;
+        }
+
+        // pełny węzeł
+        if (
+            text.includes("pelnym wezlem") ||
+            text.includes("pelny wezel") ||
+            text.includes("pelny") ||
+            text.includes("wezel")
+        ) {
+            score += 8;
+        }
+
+        // higieniczno-sanitarny / sanitarny
+        if (
+            text.includes("higien") ||
+            text.includes("sanitarn")
+        ) {
+            score += 4;
+        }
+
+        // unikamy opcji bez węzła
+        if (
+            text.includes("bez wezla") ||
+            text.includes("bez pelnego") ||
+            text.includes("wspolny") ||
+            text.includes("wspolnym")
+        ) {
+            score -= 20;
+        }
+
+        // unikamy jedynek, jeśli przypadkiem zawierają podobne słowa
+        if (
+            text.includes("jednoosobow") ||
+            text.includes("1-os") ||
+            text.includes("1 os") ||
+            text.includes("1os")
+        ) {
+            score -= 10;
+        }
+
+        return { option, score, text };
+    });
+
+    scoredOptions.sort((a, b) => b.score - a.score);
+
+    const best = scoredOptions[0];
+
+    if (best && best.score > 0) {
+        roomSelect.value = best.option.value;
+    }
+
+    // pomocniczo do sprawdzenia w konsoli, potem możesz usunąć
+    console.log("Domyślny pokój:", best);
+}
+
 async function loadData() {
     try {
         const [
             sanatoriaData,
             locationsData,
             patientFeesData,
-            privatePriceData
+            privatePriceData,
+            privateSourcesData
         ] = await Promise.all([
             fetchJson("data/sanatoria_nfz_prices.json"),
             fetchJson("data/sanatoria_locations_manual.json"),
             fetchJson("data/patient_fees.json"),
-            fetchJson("data/private_sanatorium_price_summary.json")
+            fetchJson("data/private_sanatorium_price_summary.json"),
+            fetchOptionalJson("data/private_sanatorium_price_sources.json")
         ]);
 
         sanatoria = mergeLocations(sanatoriaData, locationsData);
         patientFees = patientFeesData;
         privatePriceSummary = privatePriceData;
 
+        privatePriceSources = Array.isArray(privateSourcesData)
+            ? privateSourcesData
+            : (
+                privateSourcesData.entries ||
+                privateSourcesData.sources ||
+                privateSourcesData.items ||
+                []
+            );
+
         fillVoivodeshipSelect();
         fillCitySelect();
         fillSanatoriumSelect();
         fillStayTypeSelect();
         fillRoomSelect();
+
+        seasonSelect.value = getDefaultSeasonForToday();
+        setDefaultRoomType();
+
         updateStayDaysPreview();
         calculateFee();
     } catch (error) {
@@ -874,5 +1220,13 @@ sanatoriumSelect.addEventListener("change", () => {
 stayTypeSelect.addEventListener("change", calculateFee);
 seasonSelect.addEventListener("change", calculateFee);
 roomSelect.addEventListener("change", calculateFee);
+
+if (togglePrivateSourcesButton) {
+    togglePrivateSourcesButton.addEventListener("click", () => {
+        showAllPrivateSources = !showAllPrivateSources;
+        renderPrivateSourcesList(lastPrivateSourcesToRender);
+    });
+}
+
 
 loadData();
