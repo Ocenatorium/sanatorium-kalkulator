@@ -2013,3 +2013,161 @@ tr:hover {
     font-size: 0.82rem;
   }
 }
+/* ===== Wykresy ===== */
+
+.chart-card {
+  position: relative;
+  min-height: 520px;
+  margin-top: 22px;
+  padding: 20px;
+  border: 1px solid #d9e4f2;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(11, 40, 80, 0.06);
+}
+
+@media (max-width: 700px) {
+  .chart-card {
+    min-height: 620px;
+    padding: 12px;
+  }
+}
+
+/* ===== Wykresy — TOP 3 miasta ===== */
+
+.top-city-highlight {
+  margin: 22px 0 18px;
+}
+
+.top-city-ranking {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr;
+  gap: 14px;
+}
+
+.top-city-place {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 18px;
+  border: 1.5px solid #d9e4f2;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 24px rgba(11, 40, 80, 0.06);
+}
+
+.top-city-place-1 {
+  border: 2px solid #d9a441;
+  background:
+    radial-gradient(circle at top right, rgba(217, 164, 65, 0.14), transparent 34%),
+    linear-gradient(180deg, #fffaf0 0%, #ffffff 100%);
+}
+
+.top-city-medal {
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #eef5ff;
+  font-size: 1.45rem;
+}
+
+.top-city-place-1 .top-city-medal {
+  background: #fff2cf;
+}
+
+.top-city-rank {
+  margin-bottom: 3px;
+  color: #62748b;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.top-city-place h3 {
+  margin: 0 0 5px;
+  color: #0b2850;
+  font-size: 1.05rem;
+  line-height: 1.15;
+}
+
+.top-city-place-1 h3 {
+  font-size: 1.28rem;
+}
+
+.top-city-place strong {
+  display: inline-block;
+  color: #0b2850;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.top-city-place-1 strong {
+  color: #8a5600;
+  font-size: 1.18rem;
+}
+
+@media (max-width: 850px) {
+  .top-city-ranking {
+    grid-template-columns: 1fr;
+  }
+
+  .top-city-place,
+  .top-city-place-1 {
+    padding: 16px;
+  }
+
+  .top-city-place-1 h3 {
+    font-size: 1.15rem;
+  }
+}
+
+/* ===== TOP 3 — wersja lżejsza ===== */
+
+.top-city-main-value {
+  margin-top: 8px;
+  color: #0b2850;
+  font-size: 1.22rem;
+  font-weight: 950;
+  line-height: 1.1;
+}
+
+.top-city-place-1 .top-city-main-value {
+  color: #8a5600;
+  font-size: 1.35rem;
+}
+
+.top-city-patients {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 8px;
+  color: #62748b;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.top-city-patients-label {
+  display: block;
+  font-weight: 700;
+}
+
+.top-city-patients strong {
+  display: inline-block;
+  margin-top: 1px;
+  color: #0b2850;
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.top-city-place-1 .top-city-patients strong {
+  color: #8a5600;
+}
+
+.top-city-people {
+  font-size: 0.95rem;
+}

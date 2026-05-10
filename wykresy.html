@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wykresy sanatoriów</title>
+
+  <title>Wykresy sanatoriów NFZ — miasta z największymi kontraktami</title>
+  <meta name="description"
+    content="Wykres pokazujący miasta z największą łączną wartością umów NFZ dla sanatoriów i uzdrowisk." />
+
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
-  <header class="page-header">
-    <h1>Wykresy i porównania</h1>
-    <p>Tu później pojawią się porównania województw, regionów i finansowania NFZ.</p>
+  <header class="article-hero">
+    <div class="article-hero-inner">
+      <p class="eyebrow">Sanatoria NFZ • wykresy</p>
+      <h1>Miasta z największymi kontraktami NFZ</h1>
+      <p>
+        Zobacz, w których miejscowościach łączna wartość umów NFZ dla sanatoriów
+        i uzdrowisk jest najwyższa.
+      </p>
+    </div>
   </header>
 
   <main class="container">
     <p><a href="index.html">← Wróć do strony głównej</a></p>
 
-    <section class="placeholder">
-      <h2>Strona w przygotowaniu</h2>
-      <p>Na razie zostawiamy miejsce na przyszłe analizy.</p>
+    <section class="content-card">
+      <h2>Top miasta według wartości umów NFZ na lecznictwo uzdrowiskowe w 2026</h2>
+      <p>
+        Wykres pokazuje sumę wartości umów NFZ na lecznictwo uzdrowiskowe,
+        zagregowaną według miejscowości sanatorium.
+      </p>
+
+      <div id="topCityHighlight" class="top-city-highlight"></div>
+
+      <div class="chart-card">
+        <canvas id="cityContractsChart"></canvas>
+      </div>
+
     </section>
   </main>
+
+  <script src="wykresy.js"></script>
 </body>
+
 </html>
