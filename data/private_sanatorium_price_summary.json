@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "source_file": "private_sanatorium_price_sources.json",
+    "description": "Średnie ceny prywatnych pobytów sanatoryjnych według województwa i sezonu.",
+    "assumption": "Miejsce w pokoju 2-osobowym lub cena za osobę w pokoju 2-osobowym, z wyżywieniem i zabiegami. Dane orientacyjne, liczone z ręcznie weryfikowanego pliku źródłowego.",
+    "season_mapping": {
+      "low": "sezon niski / tańsza stawka z cennika",
+      "high": "sezon wysoki / droższa stawka z cennika",
+      "reference": "stawka referencyjna z wpisu źródłowego, jeśli została uzupełniona"
+    },
+    "excluded_status": "rejected",
+    "status_counts": {
+      "all_entries": 49,
+      "included_entries": 49,
+      "rejected_entries": 0,
+      "source_checked_entries": 46,
+      "to_verify_entries": 0
+    }
+  },
+  "prices": {
+    "dolnośląskie": {
+      "low": {
+        "average_price_per_day_pln": 287.0,
+        "estimated_21_days_pln": 6027.0,
+        "estimated_28_days_pln": 8036.0,
+        "sample_size": 6
+      },
+      "high": {
+        "average_price_per_day_pln": 319.83,
+        "estimated_21_days_pln": 6716.43,
+        "estimated_28_days_pln": 8955.24,
+        "sample_size": 6
+      },
+      "reference": {
+        "average_price_per_day_pln": 303.92,
+        "median_price_per_day_pln": 304.75,
+        "estimated_21_days_pln": 6382.32,
+        "estimated_28_days_pln": 8509.76,
+        "sample_size": 6
+      }
+    },
+    "kujawsko-pomorskie": {
+      "low": {
+        "average_price_per_day_pln": 287.3,
+        "estimated_21_days_pln": 6033.3,
+        "estimated_28_days_pln": 8044.4,
+        "sample_size": 5
+      },
+      "high": {
+        "average_price_per_day_pln": 320.3,
+        "estimated_21_days_pln": 6726.3,
+        "estimated_28_days_pln": 8968.4,
+        "sample_size": 5
+      },
+      "reference": {
+        "average_price_per_day_pln": 303.72,
+        "median_price_per_day_pln": 290.0,
+        "estimated_21_days_pln": 6378.12,
+        "estimated_28_days_pln": 8504.16,
+        "sample_size": 5
+      }
+    },
+    "lubelskie": {
+      "low": {
+        "average_price_per_day_pln": 238.75,
+        "estimated_21_days_pln": 5013.75,
+        "estimated_28_days_pln": 6685.0,
+        "sample_size": 4
+      },
+      "high": {
+        "average_price_per_day_pln": 269.75,
+        "estimated_21_days_pln": 5664.75,
+        "estimated_28_days_pln": 7553.0,
+        "sample_size": 4
+      },
+      "reference": {
+        "average_price_per_day_pln": 253.25,
+        "median_price_per_day_pln": 244.0,
+        "estimated_21_days_pln": 5318.25,
+        "estimated_28_days_pln": 7091.0,
+        "sample_size": 4
+      }
+    },
+    "mazowieckie": {
+      "low": {
+        "average_price_per_day_pln": 316.43,
+        "estimated_21_days_pln": 6645.03,
+        "estimated_28_days_pln": 8860.04,
+        "sample_size": 1
+      },
+      "high": {
+        "average_price_per_day_pln": 344.29,
+        "estimated_21_days_pln": 7230.09,
+        "estimated_28_days_pln": 9640.12,
+        "sample_size": 1
+      },
+      "reference": {
+        "average_price_per_day_pln": 330.36,
+        "median_price_per_day_pln": 330.36,
+        "estimated_21_days_pln": 6937.56,
+        "estimated_28_days_pln": 9250.08,
+        "sample_size": 1
+      }
+    },
+    "małopolskie": {
+      "low": {
+        "average_price_per_day_pln": 263.46,
+        "estimated_21_days_pln": 5532.66,
+        "estimated_28_days_pln": 7376.88,
+        "sample_size": 5
+      },
+      "high": {
+        "average_price_per_day_pln": 288.79,
+        "estimated_21_days_pln": 6064.59,
+        "estimated_28_days_pln": 8086.12,
+        "sample_size": 5
+      },
+      "reference": {
+        "average_price_per_day_pln": 276.79,
+        "median_price_per_day_pln": 278.57,
+        "estimated_21_days_pln": 5812.59,
+        "estimated_28_days_pln": 7750.12,
+        "sample_size": 5
+      }
+    },
+    "podkarpackie": {
+      "low": {
+        "average_price_per_day_pln": 297.47,
+        "estimated_21_days_pln": 6246.87,
+        "estimated_28_days_pln": 8329.16,
+        "sample_size": 5
+      },
+      "high": {
+        "average_price_per_day_pln": 315.39,
+        "estimated_21_days_pln": 6623.19,
+        "estimated_28_days_pln": 8830.92,
+        "sample_size": 5
+      },
+      "reference": {
+        "average_price_per_day_pln": 306.13,
+        "median_price_per_day_pln": 293.0,
+        "estimated_21_days_pln": 6428.73,
+        "estimated_28_days_pln": 8571.64,
+        "sample_size": 5
+      }
+    },
+    "podlaskie": {
+      "low": {
+        "average_price_per_day_pln": 327.5,
+        "estimated_21_days_pln": 6877.5,
+        "estimated_28_days_pln": 9170.0,
+        "sample_size": 4
+      },
+      "high": {
+        "average_price_per_day_pln": 352.5,
+        "estimated_21_days_pln": 7402.5,
+        "estimated_28_days_pln": 9870.0,
+        "sample_size": 4
+      },
+      "reference": {
+        "average_price_per_day_pln": 338.34,
+        "median_price_per_day_pln": 355.84,
+        "estimated_21_days_pln": 7105.14,
+        "estimated_28_days_pln": 9473.52,
+        "sample_size": 4
+      }
+    },
+    "pomorskie": {
+      "low": {
+        "average_price_per_day_pln": 273.93,
+        "estimated_21_days_pln": 5752.53,
+        "estimated_28_days_pln": 7670.04,
+        "sample_size": 4
+      },
+      "high": {
+        "average_price_per_day_pln": 368.75,
+        "estimated_21_days_pln": 7743.75,
+        "estimated_28_days_pln": 10325.0,
+        "sample_size": 4
+      },
+      "reference": {
+        "average_price_per_day_pln": 306.01,
+        "median_price_per_day_pln": 302.91,
+        "estimated_21_days_pln": 6426.21,
+        "estimated_28_days_pln": 8568.28,
+        "sample_size": 4
+      }
+    },
+    "warmińsko-mazurskie": {
+      "low": {
+        "average_price_per_day_pln": 250.0,
+        "estimated_21_days_pln": 5250.0,
+        "estimated_28_days_pln": 7000.0,
+        "sample_size": 1
+      },
+      "high": {
+        "average_price_per_day_pln": 305.0,
+        "estimated_21_days_pln": 6405.0,
+        "estimated_28_days_pln": 8540.0,
+        "sample_size": 1
+      },
+      "reference": {
+        "average_price_per_day_pln": 277.5,
+        "median_price_per_day_pln": 277.5,
+        "estimated_21_days_pln": 5827.5,
+        "estimated_28_days_pln": 7770.0,
+        "sample_size": 1
+      }
+    },
+    "zachodniopomorskie": {
+      "low": {
+        "average_price_per_day_pln": 284.2,
+        "estimated_21_days_pln": 5968.2,
+        "estimated_28_days_pln": 7957.6,
+        "sample_size": 5
+      },
+      "high": {
+        "average_price_per_day_pln": 345.2,
+        "estimated_21_days_pln": 7249.2,
+        "estimated_28_days_pln": 9665.6,
+        "sample_size": 5
+      },
+      "reference": {
+        "average_price_per_day_pln": 309.2,
+        "median_price_per_day_pln": 306.0,
+        "estimated_21_days_pln": 6493.2,
+        "estimated_28_days_pln": 8657.6,
+        "sample_size": 5
+      }
+    },
+    "łódzkie": {
+      "low": {
+        "average_price_per_day_pln": 368.57,
+        "estimated_21_days_pln": 7739.97,
+        "estimated_28_days_pln": 10319.96,
+        "sample_size": 1
+      },
+      "high": {
+        "average_price_per_day_pln": 368.57,
+        "estimated_21_days_pln": 7739.97,
+        "estimated_28_days_pln": 10319.96,
+        "sample_size": 1
+      },
+      "reference": {
+        "average_price_per_day_pln": 368.57,
+        "median_price_per_day_pln": 368.57,
+        "estimated_21_days_pln": 7739.97,
+        "estimated_28_days_pln": 10319.96,
+        "sample_size": 1
+      }
+    },
+    "śląskie": {
+      "low": {
+        "average_price_per_day_pln": 289.78,
+        "estimated_21_days_pln": 6085.38,
+        "estimated_28_days_pln": 8113.84,
+        "sample_size": 5
+      },
+      "high": {
+        "average_price_per_day_pln": 301.11,
+        "estimated_21_days_pln": 6323.31,
+        "estimated_28_days_pln": 8431.08,
+        "sample_size": 5
+      },
+      "reference": {
+        "average_price_per_day_pln": 297.16,
+        "median_price_per_day_pln": 305.0,
+        "estimated_21_days_pln": 6240.36,
+        "estimated_28_days_pln": 8320.48,
+        "sample_size": 5
+      }
+    },
+    "świętokrzyskie": {
+      "low": {
+        "average_price_per_day_pln": 340.67,
+        "estimated_21_days_pln": 7154.07,
+        "estimated_28_days_pln": 9538.76,
+        "sample_size": 3
+      },
+      "high": {
+        "average_price_per_day_pln": 367.33,
+        "estimated_21_days_pln": 7713.93,
+        "estimated_28_days_pln": 10285.24,
+        "sample_size": 3
+      },
+      "reference": {
+        "average_price_per_day_pln": 354.0,
+        "median_price_per_day_pln": 345.0,
+        "estimated_21_days_pln": 7434.0,
+        "estimated_28_days_pln": 9912.0,
+        "sample_size": 3
+      }
+    },
+    "POLSKA": {
+      "low": {
+        "average_price_per_day_pln": 288.79,
+        "estimated_21_days_pln": 6064.59,
+        "estimated_28_days_pln": 8086.12,
+        "sample_size": 49
+      },
+      "high": {
+        "average_price_per_day_pln": 323.61,
+        "estimated_21_days_pln": 6795.81,
+        "estimated_28_days_pln": 9061.08,
+        "sample_size": 49
+      },
+      "reference": {
+        "average_price_per_day_pln": 304.43,
+        "median_price_per_day_pln": 300.0,
+        "estimated_21_days_pln": 6393.03,
+        "estimated_28_days_pln": 8524.04,
+        "sample_size": 49
+      }
+    }
+  }
+}

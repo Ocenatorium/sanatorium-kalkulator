@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kalkulator dopłat do sanatorium z NFZ</title>
+  <meta
+    name="description"
+    content="Kalkulator orientacyjnej dopłaty pacjenta do sanatorium z NFZ oraz szacunkowego finansowania pobytu przez NFZ."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="article-hero">
+    <div class="article-hero-inner">
+      <p class="eyebrow">Sanatorium z NFZ • kalkulator dopłat</p>
+      <h1>Ile kosztuje pobyt w sanatorium z NFZ?</h1>
+      <p>
+        Sprawdź orientacyjną dopłatę pacjenta oraz — po wyborze ośrodka —
+        szacunkowe finansowanie pobytu przez NFZ.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p><a href="index.html">← Wróć do strony głównej</a></p>
+
+    <section class="content-card calculator-card">
+      <h2>Kalkulator dopłaty pacjenta i finansowania NFZ</h2>
+
+      <p>
+        Wybierz rodzaj pobytu, sezon i typ pokoju.
+      </p>
+
+      <p>
+        Możesz też wybrać województwo, miejscowość i konkretny ośrodek — wtedy kalkulator pokaże także szacunkową
+        kwotę finansowania pobytu przez NFZ. Możesz najpierw wybrać województwo i miejscowość albo od razu wybrać sanatorium z listy.
+      </p>
+
+      <div class="calculator-grid calculator-grid-location">
+        <label>
+          Województwo
+          <select id="voivodeshipSelect">
+            <option value="">Wszystkie województwa</option>
+          </select>
+        </label>
+
+        <label>
+          Miejscowość
+          <select id="citySelect">
+            <option value="">Wszystkie miejscowości</option>
+          </select>
+        </label>
+
+        <label>
+          Sanatorium / ośrodek
+          <select id="sanatoriumSelect">
+            <option value="">— wybierz sanatorium —</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="calculator-grid">
+        <label>
+          Rodzaj pobytu
+          <select id="stayTypeSelect">
+            <option value="sanatorium_21">
+              Leczenie w sanatorium uzdrowiskowym
+            </option>
+
+            <option value="sanatorium_rehab_28">
+              Rehabilitacja uzdrowiskowa w sanatorium
+            </option>
+
+            <option value="hospital_21">
+              Leczenie w szpitalu uzdrowiskowym
+            </option>
+
+            <option value="hospital_rehab_28">
+              Rehabilitacja uzdrowiskowa w szpitalu uzdrowiskowym
+            </option>
+
+            <option value="ambulatory_0">
+              Leczenie ambulatoryjne
+            </option>
+          </select>
+        </label>
+
+        <label>
+          Sezon dopłaty pacjenta
+          <select id="seasonSelect">
+            <option value="low">1 października – 30 kwietnia</option>
+            <option value="high">1 maja – 30 września</option>
+          </select>
+        </label>
+
+        <label>
+          Typ pokoju
+          <select id="roomSelect"></select>
+        </label>
+      </div>
+
+      <section class="calculator-result-grid" aria-label="Wynik kalkulatora">
+        <div class="result-box result-nfz-days">
+          <span>Pobyt z NFZ</span>
+          <strong id="nfzStayDaysResult">—</strong>
+        </div>
+
+        <div class="result-box private result-private-days">
+          <span>Pobyt prywatnie</span>
+          <strong id="privateStayDaysResult">—</strong>
+        </div>
+
+        <div class="result-box result-patient-total">
+          <span>Twoja dopłata za pobyt</span>
+          <strong id="patientTotalResult">—</strong>
+        </div>
+
+        <div class="result-box result-nfz-daily">
+          <span>NFZ za osobodzień</span>
+          <strong id="nfzDailyResult">—</strong>
+        </div>
+
+        <div class="result-box result-nfz-total">
+          <span>NFZ — za cały pobyt</span>
+          <strong id="nfzTotalResult">—</strong>
+        </div>
+
+        <div class="result-box highlight result-total-value">
+          <span>Razem  wartość pobytu NFZ</span>
+          <strong id="totalStayValueResult">—</strong>
+        </div>
+
+        <div class="private-result-group result-private-daily">
+          <div class="result-box private private-small">
+            <span>Osobodzień: <span id="privateDailyLabelText">średnia dla pobytów prywatnych</span></span>
+            <strong id="privateDailyResult">—</strong>
+          </div>
+        </div>
+
+        <div class="private-result-group result-private-total">
+          <div class="result-box private private-small">
+            <span>Cały pobyt: <span id="privateTotalLabelText">średnia dla pobytów prywatnych</span></span>
+            <strong id="privateTotalResult">—</strong>
+          </div>
+        </div>
+
+        <p class="private-price-note result-private-note">
+          * Pobyt prywatny: pokój 2-osobowy, min. 3 zabiegi i wyżywienie.
+        </p>
+      </section>
+      <div id="comparisonBox" class="comparison-box hidden-feature">
+        <span>Porównanie dla pokoju 2-osobowego</span>
+        <strong id="comparisonValue">—</strong>
+        <p id="comparisonText">
+          Wybierz dane, aby zobaczyć różnicę między szacunkową wartością pobytu NFZ
+          w pokoju 2-osobowym a średnią ceną prywatną.
+        </p>
+      </div>
+
+     <section class="calculation-table-wrapper hidden-feature">
+        <table class="payments-table calculation-table">
+          <thead>
+            <tr>
+              <th>Pozycja</th>
+              <th>Wartość</th>
+              <th>Jak liczono</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Długość pobytu</td>
+              <td id="daysDetails">—</td>
+              <td>Wybrany rodzaj pobytu.</td>
+            </tr>
+<tr>
+  <td>Rodzaj pobytu</td>
+  <td id="stayTypeDetails">—</td>
+  <td>Wybrany rodzaj pobytu.</td>
+</tr>
+
+<tr>
+  <td>Typ pokoju</td>
+  <td id="roomTypeDetails">—</td>
+  <td>Wybrany „Typ pokoju”.</td>
+</tr>
+            <tr>
+              <td>Dzienna dopłata pacjenta</td>
+              <td id="dailyFeeDetails">—</td>
+              <td>Stawka z tabeli dopłat NFZ dla wybranego sezonu i typu pokoju.</td>
+            </tr>
+
+            <tr>
+              <td>Dopłata pacjenta za cały pobyt</td>
+              <td id="patientTotalDetails">—</td>
+              <td>Dzienna dopłata pacjenta × liczba dni pobytu.</td>
+            </tr>
+
+            <tr>
+              <td>Finansowanie NFZ za osobodzień</td>
+              <td id="nfzDailyDetails">—</td>
+              <td>Stawka za osobodzień z danych o umowie NFZ dla wybranego ośrodka.</td>
+            </tr>
+
+            <tr>
+              <td>Finansowanie NFZ za cały pobyt</td>
+              <td id="nfzTotalDetails">—</td>
+              <td>Stawka NFZ za osobodzień × liczba dni pobytu.</td>
+            </tr>
+
+            <tr>
+              <td>Razemw artość pobytu NFZ</td>
+              <td id="totalStayValueDetails">—</td>
+              <td>Dopłata pacjenta +  finansowanie NFZ.</td>
+            </tr>
+
+            <tr>
+              <td>Prywatnie — średni osobodzień</td>
+              <td id="privateDailyDetails">—</td>
+              <td>
+                Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
+                Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska. 
+                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+              </td>
+            </tr>
+
+            <tr>
+              <td>Prywatnie — szacowany koszt pobytu</td>
+              <td id="privateTotalDetails">—</td>
+              <td>
+                Średni osobodzień prywatnie × liczba dni pobytu.
+                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <p class="small calculator-note">
+        Wynik ma charakter orientacyjny. Dopłata pacjenta obejmuje ustawową dopłatę
+        do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
+        pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
+      </p>
+    </section>
+  </main>
+
+  <script src="kalkulator.js"></script>
+</body>
+</html>

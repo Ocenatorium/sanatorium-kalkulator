@@ -1,0 +1,10 @@
+.venv/
+scripts/
+__pycache__/
+*.pyc
+.DS_Store
+
+.python-version
+pyproject.toml
+uv.lock
+main.py

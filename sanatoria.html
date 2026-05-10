@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ocenatorium Sanatoriów</title>
+  <meta
+    name="description"
+    content="Lista sanatoriów i ośrodków uzdrowiskowych z umowami NFZ na lecznictwo uzdrowiskowe."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="article-hero">
+    <div class="article-hero-inner">
+      <p class="eyebrow">Ocenatorium Sanatoriów • NFZ • uzdrowiska</p>
+      <h1>Ocenatorium Sanatoriów</h1>
+      <p>
+        Lista ośrodków z umowami NFZ na lecznictwo uzdrowiskowe.
+        Sprawdź miejscowość, województwo, kwotę umowy i stawkę NFZ za osobodzień.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p><a href="index.html">← Wróć do strony głównej</a></p>
+
+    <section class="controls">
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Szukaj: Ciechocinek, York, Kołobrzeg, Orion..."
+      />
+
+      <select id="voivodeshipFilter">
+        <option value="">Wszystkie województwa</option>
+      </select>
+
+      <select id="cityFilter">
+        <option value="">Wszystkie miejscowości</option>
+      </select>
+    </section>
+
+    <section class="summary">
+      <p id="resultCount">Ładowanie danych...</p>
+    </section>
+
+    <section class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Nazwa z NFZ</th>
+            <th>Województwo</th>
+            <th>Miejscowość sanatorium</th>
+            <th>Kwota umowy z NFZ</th>
+            <th>NFZ osobodzień leczenie sanatoryjne</th>
+          </tr>
+        </thead>
+        <tbody id="sanatoriaTableBody">
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+[
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_jednoosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój jednoosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 32.6
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_jednoosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój jednoosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 40.9
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_jednoosobowy_w_studiu",
+    "room_type": "pokój jednoosobowy w studiu",
+    "daily_fee_pln": 26.1
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_jednoosobowy_w_studiu",
+    "room_type": "pokój jednoosobowy w studiu",
+    "daily_fee_pln": 37.4
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_jednoosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój jednoosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 24.9
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_jednoosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój jednoosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 33.2
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_dwuosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój dwuosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 19.5
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_dwuosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój dwuosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 27.3
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_dwuosobowy_w_studiu",
+    "room_type": "pokój dwuosobowy w studiu",
+    "daily_fee_pln": 16.5
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_dwuosobowy_w_studiu",
+    "room_type": "pokój dwuosobowy w studiu",
+    "daily_fee_pln": 24.9
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_dwuosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój dwuosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 14.2
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_dwuosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój dwuosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 19.5
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_wieloosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój wieloosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 12.5
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_wieloosobowy_z_pelnym_wezlem_higieniczno_sanitarnym",
+    "room_type": "pokój wieloosobowy z pełnym węzłem higieniczno-sanitarnym",
+    "daily_fee_pln": 14.8
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_wieloosobowy_w_studiu",
+    "room_type": "pokój wieloosobowy w studiu",
+    "daily_fee_pln": 11.9
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_wieloosobowy_w_studiu",
+    "room_type": "pokój wieloosobowy w studiu",
+    "daily_fee_pln": 13.6
+  },
+  {
+    "year": 2026,
+    "season": "low",
+    "season_label": "1 października – 30 kwietnia",
+    "room_type_id": "pokoj_wieloosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój wieloosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 10.6
+  },
+  {
+    "year": 2026,
+    "season": "high",
+    "season_label": "1 maja – 30 września",
+    "room_type_id": "pokoj_wieloosobowy_bez_pelnego_wezla_higieniczno_sanitarnego",
+    "room_type": "pokój wieloosobowy bez pełnego węzła higieniczno-sanitarnego",
+    "daily_fee_pln": 11.9
+  }
+]

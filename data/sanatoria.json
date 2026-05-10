@@ -1,0 +1,3131 @@
+[
+  {
+    "provider_code": "170061582",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"CHEMIK\"",
+    "provider_place": "DUSZNIKI-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2cde1b70-18b7-d635-55a0-e2777d531f5b",
+        "agreement_code": "170061582260002",
+        "technical_code": "170061582260002",
+        "origin_code": "01-24-08-61582-01",
+        "amount_pln": 7312097.1,
+        "updated_at": "2026-01-20T19:01:07",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2cde1b70-18b7-d635-55a0-e2777d531f5b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060906",
+    "provider_name": "SP ZOZ SANATORIUM UZDROWISKOWE MSWIA \"AGAT\" W  JELENIEJ GÓRZE",
+    "provider_place": "JELENIA GÓRA",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "6025a4c0-d09c-24f5-11f9-1d41845aebf6",
+        "agreement_code": "170060906260002",
+        "technical_code": "170060906260002",
+        "origin_code": "01-24-08-60906-01",
+        "amount_pln": 15203209.98,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/6025a4c0-d09c-24f5-11f9-1d41845aebf6?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002314",
+    "provider_name": "UZDROWISKO CIEPLICE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ - GRUPA PGU",
+    "provider_place": "JELENIA GÓRA",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "a6e60034-acdc-6624-0e06-260c6191b1af",
+        "agreement_code": "170002314260002",
+        "technical_code": "170002314260002",
+        "origin_code": "01-24-08-02314-01",
+        "amount_pln": 20888931.84,
+        "updated_at": "2026-04-13T19:00:36",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/a6e60034-acdc-6624-0e06-260c6191b1af?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060908",
+    "provider_name": "SP ZOZ SANATORIUM UZDROWISKOWE \"BRISTOL\"MSWIA W KUDOWIE-ZDROJU",
+    "provider_place": "KUDOWA-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "3bad86c2-a9dc-c26a-cbe6-d268dc537985",
+        "agreement_code": "170060908260002",
+        "technical_code": "170060908260002",
+        "origin_code": "01-24-08-60908-01",
+        "amount_pln": 14248224.9,
+        "updated_at": "2026-03-11T19:00:37",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/3bad86c2-a9dc-c26a-cbe6-d268dc537985?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061523",
+    "provider_name": "\"ZESPÓŁ OPIEKI ZDROWOTNEJ\" W KŁODZKU",
+    "provider_place": "KŁODZKO",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "30e0e008-691e-142a-e9e4-ea5c815f1c6c",
+        "agreement_code": "170061523260002",
+        "technical_code": "170061523260002",
+        "origin_code": "01-24-08-61523-01",
+        "amount_pln": 13300121.1,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/30e0e008-691e-142a-e9e4-ea5c815f1c6c?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002348",
+    "provider_name": "23 WOJSKOWY SZPITAL UZDROWISKOWO - REHABILITACYJNY SP ZOZ",
+    "provider_place": "LĄDEK-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "dbf32dc0-4c5f-05f2-d3dc-d3c26f67af89",
+        "agreement_code": "170002348260002",
+        "technical_code": "170002348260002",
+        "origin_code": "01-24-08-02348-01",
+        "amount_pln": 21912895.62,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/dbf32dc0-4c5f-05f2-d3dc-d3c26f67af89?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002299",
+    "provider_name": "UZDROWISKO LĄDEK - DŁUGOPOLE SPÓŁKA AKCYJNA",
+    "provider_place": "LĄDEK-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "d2fa741b-ba07-de9a-10f0-72d0730b9e95",
+        "agreement_code": "170002299260002",
+        "technical_code": "170002299260002",
+        "origin_code": "01-24-08-02299-01",
+        "amount_pln": 41624568.65,
+        "updated_at": "2026-02-11T19:00:14",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/d2fa741b-ba07-de9a-10f0-72d0730b9e95?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061038",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"MALWA\" \"KAMEA\" SP. Z O.O. W POLANICY ZDROJU",
+    "provider_place": "POLANICA-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "25e1785e-2e84-5523-ed20-1fe81a8b5cc2",
+        "agreement_code": "170061038260002",
+        "technical_code": "170061038260002",
+        "origin_code": "01-24-08-61038-01",
+        "amount_pln": 8010699.9,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/25e1785e-2e84-5523-ed20-1fe81a8b5cc2?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061387",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"STARY ZDRÓJ\"",
+    "provider_place": "POLANICA-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "aca64d6d-11e4-ff0d-ad9c-3b485983aa83",
+        "agreement_code": "170061387260002",
+        "technical_code": "170061387260002",
+        "origin_code": "01-24-08-61387-01",
+        "amount_pln": 5550620.04,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/aca64d6d-11e4-ff0d-ad9c-3b485983aa83?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002316",
+    "provider_name": "UZDROWISKA KŁODZKIE SPÓŁKA AKCYJNA-GRUPA PGU",
+    "provider_place": "POLANICA-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2464d896-1258-3d57-afb6-fe3d4a3f93a6",
+        "agreement_code": "170002316260002",
+        "technical_code": "170002316260002",
+        "origin_code": "01-24-08-02316-02",
+        "amount_pln": 4135563.0,
+        "updated_at": "2026-01-22T19:00:11",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2464d896-1258-3d57-afb6-fe3d4a3f93a6?format=json&api-version=1.2"
+      },
+      {
+        "agreement_id": "811d1702-c02e-dd6a-90f5-11790c914ac1",
+        "agreement_code": "170002316260003",
+        "technical_code": "170002316260003",
+        "origin_code": "01-24-08-02316-01",
+        "amount_pln": 83196847.23,
+        "updated_at": "2026-04-17T19:00:51",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/811d1702-c02e-dd6a-90f5-11790c914ac1?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061267",
+    "provider_name": "SANATORIA DOLNOŚLĄSKIE SP. Z O.O.",
+    "provider_place": "SOKOŁOWSKO",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "842f4daf-895a-efc9-6e6b-a1f201dc48b2",
+        "agreement_code": "170061267260002",
+        "technical_code": "170061267260002",
+        "origin_code": "01-24-08-61267-01",
+        "amount_pln": 17537029.02,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/842f4daf-895a-efc9-6e6b-a1f201dc48b2?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002332",
+    "provider_name": "UZDROWISKO-SZCZAWNO - JEDLINA S.A.",
+    "provider_place": "SZCZAWNO-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "7fc93227-68b4-cab5-9b3f-f76df4ae76b7",
+        "agreement_code": "170002332260002",
+        "technical_code": "170002332260002",
+        "origin_code": "01-24-08-02332-01",
+        "amount_pln": 32100866.7,
+        "updated_at": "2026-01-19T19:01:04",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7fc93227-68b4-cab5-9b3f-f76df4ae76b7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002269",
+    "provider_name": "UZDROWISKO ŚWIERADÓW - CZERNIAWA SPÓŁKA Z O.O. - GRUPA PGU",
+    "provider_place": "ŚWIERADÓW-ZDRÓJ",
+    "branch": "01",
+    "branch_name": "Dolnośląski OW NFZ",
+    "voivodeship": "dolnośląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "47447768-1fe8-88f3-5632-e2323409566e",
+        "agreement_code": "170002269260003",
+        "technical_code": "170002269260003",
+        "origin_code": "01-24-08-02269-02",
+        "amount_pln": 15327125.73,
+        "updated_at": "2026-04-13T19:00:36",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/47447768-1fe8-88f3-5632-e2323409566e?format=json&api-version=1.2"
+      },
+      {
+        "agreement_id": "7b29d383-3ca7-1a5f-a505-06ca676f2e72",
+        "agreement_code": "170002269260002",
+        "technical_code": "170002269260002",
+        "origin_code": "01-24-08-02269-01",
+        "amount_pln": 6250081.74,
+        "updated_at": "2026-04-15T19:00:46",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7b29d383-3ca7-1a5f-a505-06ca676f2e72?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061737",
+    "provider_name": "SANATORIUM UZDROWISKOWE ZNP CIECHOCINEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "BRAK DANYCH",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "19c2a54e-dfa4-f64d-d3be-792b08903d7d",
+        "agreement_code": "170061737260001",
+        "technical_code": "170061737260001",
+        "origin_code": "02-26-08-61737-01",
+        "amount_pln": 15570336.6,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/19c2a54e-dfa4-f64d-d3be-792b08903d7d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061702",
+    "provider_name": "ŁAZIENKI SANATORIUM  UZDROWISKOWE",
+    "provider_place": "BRAK DANYCH",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "84c99526-be79-1aa5-3667-c57b04a37aed",
+        "agreement_code": "170061702260002",
+        "technical_code": "170061702260002",
+        "origin_code": "02-25-08-61702-01",
+        "amount_pln": 10828801.2,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/84c99526-be79-1aa5-3667-c57b04a37aed?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002337",
+    "provider_name": "22 WOJSKOWY SZPITAL UZDROWISKOWO - REHABILITACYJNY SP ZOZ",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b533a902-90a7-8c79-414c-41ce304b9b34",
+        "agreement_code": "170002337260002",
+        "technical_code": "170002337260002",
+        "origin_code": "02-25-08-02337-01",
+        "amount_pln": 13467613.02,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b533a902-90a7-8c79-414c-41ce304b9b34?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061466",
+    "provider_name": "FHU S.C. \"YORK\"  SŁAWOMIR KRASZEWSKI, ANNA KRASZEWSKA",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "8998dc73-d936-91dd-319d-3d07a2fb8c68",
+        "agreement_code": "170061466260002",
+        "technical_code": "170061466260002",
+        "origin_code": "02-25-08-61466-01",
+        "amount_pln": 14346911.25,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/8998dc73-d936-91dd-319d-3d07a2fb8c68?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061709",
+    "provider_name": "KLINIKA UZDROWISKOWA \"POD TĘŻNIAMI\" IM.  JANA PAWŁA II SPÓŁDZIELNIA USŁUG MEDYCZNYCH",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "40ab7186-6e07-7fa6-2fe1-36b45442b381",
+        "agreement_code": "170061709260001",
+        "technical_code": "170061709260001",
+        "origin_code": "02-25-08-61709-01",
+        "amount_pln": 10230234.0,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/40ab7186-6e07-7fa6-2fe1-36b45442b381?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002338",
+    "provider_name": "KOLEJOWY SZPITAL UZDROWISKOWY SPÓŁKA Z O.O. W CIECHOCINKU",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "577ecfdf-6955-6de6-812e-ac6b29aace29",
+        "agreement_code": "170002338260002",
+        "technical_code": "170002338260002",
+        "origin_code": "02-25-08-02338-01",
+        "amount_pln": 24026148.13,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/577ecfdf-6955-6de6-812e-ac6b29aace29?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002289",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE ZWIĄZKU NAUCZYCIELSTWA POLSKIEGO ZG",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "9133150e-b624-0531-3b15-caff1588fc8f",
+        "agreement_code": "170002289260002",
+        "technical_code": "170002289260002",
+        "origin_code": "02-25-08-02289-01",
+        "amount_pln": 0.0,
+        "updated_at": "2025-12-30T19:01:06",
+        "related_url": null
+      }
+    ]
+  },
+  {
+    "provider_code": "170060860",
+    "provider_name": "OŚRODEK SANATORYJNO WYPOCZYNKOWY SPÓŁDZIELCZOŚCI PRACY",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "3c1ad985-1b54-d8dc-34d9-7054aae231ea",
+        "agreement_code": "170060860260002",
+        "technical_code": "170060860260002",
+        "origin_code": "02-25-08-60860-01",
+        "amount_pln": 8643171.6,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/3c1ad985-1b54-d8dc-34d9-7054aae231ea?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060172",
+    "provider_name": "PRZEDSIĘBIORSTWO WIELOBRANŻOWE \"MEDICAL-TOURIST\" SP. Z O.O.",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "63d22cac-7d50-2d11-548d-8e44fa468e14",
+        "agreement_code": "170060172260002",
+        "technical_code": "170060172260002",
+        "origin_code": "02-25-08-60172-01",
+        "amount_pln": 7299052.74,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/63d22cac-7d50-2d11-548d-8e44fa468e14?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002340",
+    "provider_name": "SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE MINISTERSTWA SPRAW WEWNĘTRZYNYCH I ADMINISTRACJI \"ORION\" W CIECHOCINKU",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "e6f87f37-6f27-dfa1-52fd-029ea6a9a21d",
+        "agreement_code": "170002340260002",
+        "technical_code": "170002340260002",
+        "origin_code": "02-25-08-02340-01",
+        "amount_pln": 21938222.07,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/e6f87f37-6f27-dfa1-52fd-029ea6a9a21d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002327",
+    "provider_name": "SANATORIUM \"GRACJA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2f350628-7776-1a22-55b1-e75cae190ad7",
+        "agreement_code": "170002327260002",
+        "technical_code": "170002327260002",
+        "origin_code": "02-25-08-02327-01",
+        "amount_pln": 15156000.51,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2f350628-7776-1a22-55b1-e75cae190ad7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061706",
+    "provider_name": "SANATORIUM JULIANÓWKA MAKSYM SZULC",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "3d2f64d7-0e90-fb0a-b40a-9171e74c0850",
+        "agreement_code": "170061706260002",
+        "technical_code": "170061706260002",
+        "origin_code": "02-25-08-61706-01",
+        "amount_pln": 16118442.9,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/3d2f64d7-0e90-fb0a-b40a-9171e74c0850?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060858",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"KRYSTYNKA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f2b5a67b-cdea-17ad-c6d1-30dfc3c7180b",
+        "agreement_code": "170060858260002",
+        "technical_code": "170060858260002",
+        "origin_code": "02-25-08-60858-01",
+        "amount_pln": 7986064.71,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f2b5a67b-cdea-17ad-c6d1-30dfc3c7180b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002274",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"WRZOS\", SP. Z O.O.",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "287bef49-e942-0b65-3da6-8e8ec04097ca",
+        "agreement_code": "170002274260002",
+        "technical_code": "170002274260002",
+        "origin_code": "02-25-08-02274-01",
+        "amount_pln": 13199977.35,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/287bef49-e942-0b65-3da6-8e8ec04097ca?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061569",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"ŁĄCZNOŚĆ\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "a14b07a5-77b0-dec5-9591-ed30d2971f31",
+        "agreement_code": "170061569260002",
+        "technical_code": "170061569260002",
+        "origin_code": "02-25-08-61569-01",
+        "amount_pln": 9681046.2,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/a14b07a5-77b0-dec5-9591-ed30d2971f31?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061683",
+    "provider_name": "SANATORIUM UZDROWISKOWE MAX MARIAN SZULC",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "938a9761-7221-f56a-be1e-23ea37fdecac",
+        "agreement_code": "170061683260002",
+        "technical_code": "170061683260002",
+        "origin_code": "02-25-08-61683-01",
+        "amount_pln": 11811874.41,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/938a9761-7221-f56a-be1e-23ea37fdecac?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061573",
+    "provider_name": "SANATORIUM UZDROWISKOWE ZDROWIE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "07bb573f-4ff6-cc90-5a7f-44b35c3813b0",
+        "agreement_code": "170061573260002",
+        "technical_code": "170061573260002",
+        "origin_code": "02-25-08-61573-01",
+        "amount_pln": 10679501.7,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/07bb573f-4ff6-cc90-5a7f-44b35c3813b0?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002323",
+    "provider_name": "UZDROWISKO CIECHOCINEK S.A.",
+    "provider_place": "CIECHOCINEK",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "96c02edc-5c6c-c4cb-3641-898f4ac95869",
+        "agreement_code": "170002323260002",
+        "technical_code": "170002323260002",
+        "origin_code": "02-25-08-02323-01",
+        "amount_pln": 46794370.79,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/96c02edc-5c6c-c4cb-3641-898f4ac95869?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061693",
+    "provider_name": "BALNEA INOWROCŁAW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "INOWROCŁAW",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "217c4df7-13de-9952-b3ad-a4a08918f37d",
+        "agreement_code": "170061693260002",
+        "technical_code": "170061693260002",
+        "origin_code": "02-25-08-61693-01",
+        "amount_pln": 14067305.22,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/217c4df7-13de-9952-b3ad-a4a08918f37d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002339",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"PRZY TĘŻNI\" IM. DR JÓZEFA KRZYMIŃSKIEGO W INOWROCŁAWIU S.P.Z.O.Z.",
+    "provider_place": "INOWROCŁAW",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f2624f71-e92e-53cd-1da0-abc6860339e4",
+        "agreement_code": "170002339260002",
+        "technical_code": "170002339260002",
+        "origin_code": "02-25-08-02339-01",
+        "amount_pln": 33933564.0,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f2624f71-e92e-53cd-1da0-abc6860339e4?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061585",
+    "provider_name": "SANATORIUM UZDROWISKOWE OŚRODEK REHABILITACJI I ODNOWY BIOLOGICZNEJ \"OAZA\" SPÓŁKA Z O.O.",
+    "provider_place": "INOWROCŁAW",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "3274ffb2-8a24-1631-3dcd-7c5d456d856b",
+        "agreement_code": "170061585260002",
+        "technical_code": "170061585260002",
+        "origin_code": "02-25-08-61585-01",
+        "amount_pln": 11060306.2,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/3274ffb2-8a24-1631-3dcd-7c5d456d856b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002330",
+    "provider_name": "SOLANKI UZDROWISKO INOWROCŁAW SPÓŁKA Z O.O.",
+    "provider_place": "INOWROCŁAW",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "6ee8b002-ef92-ec8e-cf83-57f7aa4fecef",
+        "agreement_code": "170002330260002",
+        "technical_code": "170002330260002",
+        "origin_code": "02-25-08-02330-01",
+        "amount_pln": 43839271.85,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/6ee8b002-ef92-ec8e-cf83-57f7aa4fecef?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060869",
+    "provider_name": "SZPITAL UZDROWISKOWY ENERGETYK SP. Z O.O.",
+    "provider_place": "INOWROCŁAW",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "e2c0d3f0-7e14-c459-8a7c-52a03be7fac8",
+        "agreement_code": "170060869260002",
+        "technical_code": "170060869260002",
+        "origin_code": "02-25-08-60869-01",
+        "amount_pln": 12787061.12,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/e2c0d3f0-7e14-c459-8a7c-52a03be7fac8?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002293",
+    "provider_name": "CENTRUM PROMOCJI ZDROWIA SANVIT SP. Z O.O.",
+    "provider_place": "WARSZAWA",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2bce7df4-8384-e50e-709d-a89ba4ebe818",
+        "agreement_code": "170002293260002",
+        "technical_code": "170002293260002",
+        "origin_code": "02-25-08-02293-01",
+        "amount_pln": 10429580.7,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2bce7df4-8384-e50e-709d-a89ba4ebe818?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061595",
+    "provider_name": "HANDLOWO-USŁUGOWA SPÓŁDZIELNIA OSÓB PRAWNYCH \"SAMOPOMOC CHŁOPSKA \" W WARSZAWIE",
+    "provider_place": "WARSZAWA",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "98ccf148-179c-8b71-2821-be860801f38f",
+        "agreement_code": "170061595260002",
+        "technical_code": "170061595260002",
+        "origin_code": "02-25-08-61595-01",
+        "amount_pln": 10839042.06,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/98ccf148-179c-8b71-2821-be860801f38f?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061000",
+    "provider_name": "POLSKI ZWIĄZEK NIEWIDOMYCH \"EDEN\" SANATORIUM UZDROWISKOWE OŚRODEK LECZNICZO-REHABILITACYJNY IM. KACZMARKA W CIECHOCINKU",
+    "provider_place": "WARSZAWA",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "aa0a8fa9-eb7d-56df-7aa8-b9855d171a3e",
+        "agreement_code": "170061000260002",
+        "technical_code": "170061000260002",
+        "origin_code": "02-25-08-61000-01",
+        "amount_pln": 6362543.25,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/aa0a8fa9-eb7d-56df-7aa8-b9855d171a3e?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002310",
+    "provider_name": "UZDROWISKO WIENIEC SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "WIENIEC-ZDRÓJ",
+    "branch": "02",
+    "branch_name": "Kujawsko-Pomorski OW NFZ",
+    "voivodeship": "kujawsko-pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "4a0d2eed-93ab-a215-3d09-8965c117eff6",
+        "agreement_code": "170002310260002",
+        "technical_code": "170002310260002",
+        "origin_code": "02-25-08-02310-01",
+        "amount_pln": 72606620.74,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/4a0d2eed-93ab-a215-3d09-8965c117eff6?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060948",
+    "provider_name": "SAMODZIELNE PUBLICZNE SANATORIUM REHABILITACYJNE IM. JANUSZA KORCZAKA",
+    "provider_place": "KRASNOBRÓD",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "9fbb75db-2c08-e51f-15cd-79455ba91a91",
+        "agreement_code": "170060948260002",
+        "technical_code": "170060948260002",
+        "origin_code": "03-24-08-60948-01",
+        "amount_pln": 11918290.02,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/9fbb75db-2c08-e51f-15cd-79455ba91a91?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002261",
+    "provider_name": "KOLEJOWY SZPITAL UZDROWISKOWY SP ZOZ W NAŁĘCZOWIE",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "d4c0ab02-8ebf-cd8b-e134-24929e8b7167",
+        "agreement_code": "170002261260002",
+        "technical_code": "170002261260002",
+        "origin_code": "03-24-08-02261-01",
+        "amount_pln": 10462049.43,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/d4c0ab02-8ebf-cd8b-e134-24929e8b7167?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002252",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE ZWIĄZKU NAUCZYCIELSTWA POLSKIEGO ZG",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ff26181a-82f4-1dc2-b5e6-48aabdf2c4af",
+        "agreement_code": "170002252260001",
+        "technical_code": "170002252260001",
+        "origin_code": "03-24-08-02252-01",
+        "amount_pln": 0.0,
+        "updated_at": "2026-01-28T19:00:34",
+        "related_url": null
+      }
+    ]
+  },
+  {
+    "provider_code": "170002285",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"CICHE WĄWOZY\" W NAŁĘCZOWIE",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "38397419-aa07-df02-de87-8ba280d3c115",
+        "agreement_code": "170002285260002",
+        "technical_code": "170002285260002",
+        "origin_code": "03-24-08-02285-01",
+        "amount_pln": 8298403.26,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/38397419-aa07-df02-de87-8ba280d3c115?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061739",
+    "provider_name": "SANATORIUM UZDROWISKOWE ZNP NAŁĘCZÓW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "5c52478c-e932-a917-a2e5-cd8fc1bb5ade",
+        "agreement_code": "170061739260001",
+        "technical_code": "170061739260001",
+        "origin_code": "03-24-08-02252-01.",
+        "amount_pln": 5898203.64,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/5c52478c-e932-a917-a2e5-cd8fc1bb5ade?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002311",
+    "provider_name": "WOJEWÓDZKI ZWIĄZEK ROLNIKÓW, KÓŁEK I ORGANIZACJI ROLNICZYCH",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "c35a5cf5-6cf2-67a9-e2d0-9a844046432b",
+        "agreement_code": "170002311260002",
+        "technical_code": "170002311260002",
+        "origin_code": "03-24-08-02311-01",
+        "amount_pln": 7160678.7,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/c35a5cf5-6cf2-67a9-e2d0-9a844046432b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002331",
+    "provider_name": "ZAKŁAD LECZNICZY \"UZDROWISKO NAŁĘCZÓW\" SPÓŁKA AKCYJNA",
+    "provider_place": "NAŁĘCZÓW",
+    "branch": "03",
+    "branch_name": "Lubelski OW NFZ",
+    "voivodeship": "lubelskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "8546ac44-47f9-fc18-71ab-cd08643e26c2",
+        "agreement_code": "170002331260001",
+        "technical_code": "170002331260001",
+        "origin_code": "03-24-08-02331-01",
+        "amount_pln": 28483766.01,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/8546ac44-47f9-fc18-71ab-cd08643e26c2?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002325",
+    "provider_name": "\"UZDROWISKO KONSTANCIN-ZDRÓJ\"  SPÓŁKA AKCYJNA",
+    "provider_place": "KONSTANCIN-JEZIORNA",
+    "branch": "07",
+    "branch_name": "Mazowiecki OW NFZ",
+    "voivodeship": "mazowieckie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "c65bcbfa-815c-f9cf-fd75-b61fe610f9a6",
+        "agreement_code": "170002325260001",
+        "technical_code": "170002325260001",
+        "origin_code": "07-24-08-02325-01",
+        "amount_pln": 5774852.16,
+        "updated_at": "2026-04-29T19:00:42",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/c65bcbfa-815c-f9cf-fd75-b61fe610f9a6?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002313",
+    "provider_name": "UZDROWISKO KRAKÓW SWOSZOWICE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KRAKÓW",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b4a5cf53-caa4-5acb-ccce-fe3c2aa9baf6",
+        "agreement_code": "170002313260002",
+        "technical_code": "170002313260002",
+        "origin_code": "06-24-08-02313-01",
+        "amount_pln": 6188764.68,
+        "updated_at": "2026-02-04T19:00:58",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b4a5cf53-caa4-5acb-ccce-fe3c2aa9baf6?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061266",
+    "provider_name": "\"SANATORIUM NAD KRYNICZANKĄ\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "219a22e3-9474-5c9a-d842-83a518219859",
+        "agreement_code": "170061266260002",
+        "technical_code": "170061266260002",
+        "origin_code": "06-24-08-61266-01",
+        "amount_pln": 11656686.72,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/219a22e3-9474-5c9a-d842-83a518219859?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002266",
+    "provider_name": "\"UZDROWISKO KRYNICA-ŻEGIESTÓW\" SPÓŁKA AKCYJNA",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "67caefe3-ea76-fdd7-17bd-fb8d31b5500b",
+        "agreement_code": "170002266260002",
+        "technical_code": "170002266260002",
+        "origin_code": "06-24-08-02266-01",
+        "amount_pln": 31698010.68,
+        "updated_at": "2026-04-01T19:00:48",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/67caefe3-ea76-fdd7-17bd-fb8d31b5500b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002262",
+    "provider_name": "20 WOJSKOWY SZPITAL UZDROWISKOWO - REHABILITACYJNY SP ZOZ",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "aa0b8ef4-e50d-3e8c-988b-0047f6fba46b",
+        "agreement_code": "170002262260002",
+        "technical_code": "170002262260002",
+        "origin_code": "06-24-08-02262-01",
+        "amount_pln": 17153770.2,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/aa0b8ef4-e50d-3e8c-988b-0047f6fba46b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061649",
+    "provider_name": "HUSOP  W WARSZAWIE O/ KRYNICY-ZDROJU SANATORIUM UZDROWISKOWE \"WATRA\"",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "57d2198d-6eb7-f757-6660-f83f0fa63622",
+        "agreement_code": "170061649260002",
+        "technical_code": "170061649260002",
+        "origin_code": "06-24-08-61649-01",
+        "amount_pln": 5748503.04,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/57d2198d-6eb7-f757-6660-f83f0fa63622?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061629",
+    "provider_name": "OŚRODEK SANATORYJNO-WYPOCZYNKOWY LWIGRÓD SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "daf0696d-0b7b-1d4f-b18e-07101d1eacdd",
+        "agreement_code": "170061629260002",
+        "technical_code": "170061629260002",
+        "origin_code": "06-24-08-61629-01",
+        "amount_pln": 20314371.42,
+        "updated_at": "2026-03-16T19:00:51",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/daf0696d-0b7b-1d4f-b18e-07101d1eacdd?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170600152",
+    "provider_name": "SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE M.S.W. I A. W KRYNICY-ZDROJU",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "6b4c7624-0845-8662-5d47-05b8228eee4d",
+        "agreement_code": "170600152260002",
+        "technical_code": "170600152260002",
+        "origin_code": "06-24-08-00152-01",
+        "amount_pln": 17914171.8,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/6b4c7624-0845-8662-5d47-05b8228eee4d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002265",
+    "provider_name": "SANATORIUM  UZDROWISKOWE ABATON  SPÓŁDZIELNIA PRACY",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "cfcd952d-accd-2696-9ac3-7c5b25474f94",
+        "agreement_code": "170002265260002",
+        "technical_code": "170002265260002",
+        "origin_code": "06-24-08-02265-01",
+        "amount_pln": 6287425.2,
+        "updated_at": "2026-04-10T19:00:24",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/cfcd952d-accd-2696-9ac3-7c5b25474f94?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061594",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"LEŚNIK DRZEWIARZ\" SP. Z O.O.",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "a7723b3f-abb0-aed1-c423-150959355d2d",
+        "agreement_code": "170061594260002",
+        "technical_code": "170061594260002",
+        "origin_code": "06-24-08-61594-01",
+        "amount_pln": 10518962.16,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/a7723b3f-abb0-aed1-c423-150959355d2d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060176",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"MIELEC\"",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "a97a831c-1d08-65c0-4db1-20d8d095c768",
+        "agreement_code": "170060176260002",
+        "technical_code": "170060176260002",
+        "origin_code": "06-24-08-60176-01",
+        "amount_pln": 29630738.76,
+        "updated_at": "2026-03-20T19:01:07",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/a97a831c-1d08-65c0-4db1-20d8d095c768?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002283",
+    "provider_name": "ZRZESZENIE ZWIĄZKÓW ZAWODOWYCH ENERGETYKÓW SANATORIUM ENERGETYK",
+    "provider_place": "KRYNICA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "bd55114c-cb91-c064-bc07-2b7fd5adc3ca",
+        "agreement_code": "170002283260002",
+        "technical_code": "170002283260002",
+        "origin_code": "06-24-08-02283-01",
+        "amount_pln": 3592814.4,
+        "updated_at": "2026-04-20T19:00:58",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/bd55114c-cb91-c064-bc07-2b7fd5adc3ca?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002288",
+    "provider_name": "KORONA SANATORIUM UZDROWISKOWE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "MUSZYNA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "7e77b842-d24b-c8f5-4687-57ace560c196",
+        "agreement_code": "170002288260002",
+        "technical_code": "170002288260002",
+        "origin_code": "06-24-08-02288-01",
+        "amount_pln": 7984032.0,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7e77b842-d24b-c8f5-4687-57ace560c196?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061006",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ \"MUSZYNA\" CENTRUM REHABILITACJI I PROFILAKTYKI - SANATORIUM UZDROWISKOWE",
+    "provider_place": "MUSZYNA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2e1d0118-313f-976e-21dc-0375fd35a054",
+        "agreement_code": "170061006260002",
+        "technical_code": "170061006260002",
+        "origin_code": "06-24-08-61006-01",
+        "amount_pln": 4980039.96,
+        "updated_at": "2026-04-27T19:00:28",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2e1d0118-313f-976e-21dc-0375fd35a054?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002522",
+    "provider_name": "NZOZ SANATORIUM UZDROWISKOWE \"WIARUS\"",
+    "provider_place": "MUSZYNA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "627238f2-4107-1904-fc59-f7f2da6db4c6",
+        "agreement_code": "170002522260002",
+        "technical_code": "170002522260002",
+        "origin_code": "06-24-08-02522-01",
+        "amount_pln": 6711576.9,
+        "updated_at": "2026-03-16T19:00:51",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/627238f2-4107-1904-fc59-f7f2da6db4c6?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002297",
+    "provider_name": "SANATORIUM REHABILITACJI UZDROWISKOWEJ \"REVITA\" SPÓŁKA Z O.O.",
+    "provider_place": "MUSZYNA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "24c03e4a-0259-c2a3-b64e-0c16edf4716c",
+        "agreement_code": "170002297260002",
+        "technical_code": "170002297260002",
+        "origin_code": "06-24-08-02297-01",
+        "amount_pln": 8692614.84,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/24c03e4a-0259-c2a3-b64e-0c16edf4716c?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061726",
+    "provider_name": "SANATORIUM RABKA - ZDRÓJ CEGIELSKI",
+    "provider_place": "NOWY TARG",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "783ca19c-0ca1-596d-16cd-7c8dc2ac9d4d",
+        "agreement_code": "170061726260002",
+        "technical_code": "170061726260002",
+        "origin_code": "06-24-08-61726-01",
+        "amount_pln": 3963320.76,
+        "updated_at": "2026-03-31T19:00:44",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/783ca19c-0ca1-596d-16cd-7c8dc2ac9d4d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061648",
+    "provider_name": "HUSOP  W WARSZAWIE O/ODDZIAŁ W PIWNICZNEJ ZDROJU SANATORIUM UZDROWISKOWE \"LIMBA\"",
+    "provider_place": "PIWNICZNA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "6809385c-7b50-646a-cc45-c5f1c7c1cc5c",
+        "agreement_code": "170061648260002",
+        "technical_code": "170061648260002",
+        "origin_code": "06-24-08-61648-01",
+        "amount_pln": 13023952.2,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/6809385c-7b50-646a-cc45-c5f1c7c1cc5c?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060171",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"BUDOWLANI\" SZCZAWNICA - M. GONCIARZ, W. GONCIARZ - JEZIOREK SPÓŁKA JAWNA",
+    "provider_place": "PODEGRODZIE",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "df2c3d26-de27-764e-d342-cd69b7713d05",
+        "agreement_code": "170060171260002",
+        "technical_code": "170060171260002",
+        "origin_code": "06-24-08-60171-01",
+        "amount_pln": 5389221.6,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/df2c3d26-de27-764e-d342-cd69b7713d05?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002308",
+    "provider_name": "\"UZDROWISKO RABKA\" S.A.",
+    "provider_place": "RABKA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "936415fd-5c74-5565-c2d8-0a929375a5ad",
+        "agreement_code": "170002308260002",
+        "technical_code": "170002308260002",
+        "origin_code": "06-24-08-02308-01",
+        "amount_pln": 19965196.56,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/936415fd-5c74-5565-c2d8-0a929375a5ad?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060173",
+    "provider_name": "ŚLĄSKIE CENTRUM REHABILITACYJNO - UZDROWISKOWE IM. DR A. SZEBESTY W RABCE-ZDROJU SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "RABKA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f3c134cb-bb6c-c801-d15e-6076e32f4675",
+        "agreement_code": "170060173260003",
+        "technical_code": "170060173260003",
+        "origin_code": "06-24-08-60173-01",
+        "amount_pln": 15223703.88,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f3c134cb-bb6c-c801-d15e-6076e32f4675?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002302",
+    "provider_name": "CENTRUM WCZASOWO-LECZNICZE SOLAR SPA SANATORIUM UZDROWISKOWE NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ ADAM WOLFRAM",
+    "provider_place": "SZCZAWNICA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "21172293-4b3e-4b36-e7fb-48ea2a46876a",
+        "agreement_code": "170002302260002",
+        "technical_code": "170002302260002",
+        "origin_code": "06-24-08-02302-01",
+        "amount_pln": 12335329.44,
+        "updated_at": "2026-03-17T19:00:55",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/21172293-4b3e-4b36-e7fb-48ea2a46876a?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002253",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE \"NAUCZYCIEL\" ZWIĄZKU NAUCZYCIELSTWA POLSKIEGO ZG",
+    "provider_place": "SZCZAWNICA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "84ed6af9-b41b-c2b0-d368-df584aa6f8c7",
+        "agreement_code": "170002253260002",
+        "technical_code": "170002253260002",
+        "origin_code": "06-24-08-02253-01",
+        "amount_pln": 0.0,
+        "updated_at": "2026-01-02T19:00:19",
+        "related_url": null
+      }
+    ]
+  },
+  {
+    "provider_code": "170002295",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"DZWONKÓWKA\" SPÓŁDZIELNIA PRACY",
+    "provider_place": "SZCZAWNICA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "5cac0348-176f-576c-f406-9700e3d6dee9",
+        "agreement_code": "170002295260002",
+        "technical_code": "170002295260002",
+        "origin_code": "06-24-08-02295-01",
+        "amount_pln": 8408183.7,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/5cac0348-176f-576c-f406-9700e3d6dee9?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061735",
+    "provider_name": "SANATORIUM UZDROWISKOWE ZNP SZCZAWNICA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "SZCZAWNICA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "86a8d9af-2fec-f219-8347-830cb88893de",
+        "agreement_code": "170061735260002",
+        "technical_code": "170061735260002",
+        "origin_code": "06-24-08-61735-01",
+        "amount_pln": 6387225.6,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/86a8d9af-2fec-f219-8347-830cb88893de?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002296",
+    "provider_name": "UZDROWISKO SZCZAWNICA SPÓŁKA AKCYJNA",
+    "provider_place": "SZCZAWNICA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "49384176-7f8a-6622-6ce0-90f76ea37d77",
+        "agreement_code": "170002296260002",
+        "technical_code": "170002296260002",
+        "origin_code": "06-24-08-02296-01",
+        "amount_pln": 2878404.48,
+        "updated_at": "2026-03-24T19:00:14",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/49384176-7f8a-6622-6ce0-90f76ea37d77?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061474",
+    "provider_name": "OŚRODEK SANATORYJNO-LECZNICZY W WAPIENNEM",
+    "provider_place": "SĘKOWA",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "91bde13b-0046-db9b-eae8-0074530a4ecb",
+        "agreement_code": "170061474260002",
+        "technical_code": "170061474260002",
+        "origin_code": "06-24-08-61474-01",
+        "amount_pln": 3313373.28,
+        "updated_at": "2026-03-23T19:00:07",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/91bde13b-0046-db9b-eae8-0074530a4ecb?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002298",
+    "provider_name": "\"UZDROWISKO WYSOWA\" S.A. NIEPUBLICZNY ZESPÓŁ ZAKŁADÓW OPIEKI ZDROWOTNEJ",
+    "provider_place": "WYSOWA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "53977eb1-b6fa-51ed-0acb-a27bcd1b2107",
+        "agreement_code": "170002298260002",
+        "technical_code": "170002298260002",
+        "origin_code": "06-24-08-02298-01",
+        "amount_pln": 13359593.1,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/53977eb1-b6fa-51ed-0acb-a27bcd1b2107?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061658",
+    "provider_name": "CENTRUM REKREACYJNO-LECZNICZE \"GLINIK\" I SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "WYSOWA-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b6825047-e2fa-b2b0-27f2-dca7afdee296",
+        "agreement_code": "170061658260002",
+        "technical_code": "170061658260002",
+        "origin_code": "06-24-08-61658-01",
+        "amount_pln": 9905189.7,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b6825047-e2fa-b2b0-27f2-dca7afdee296?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061451",
+    "provider_name": "PRZEDSIĘBIORSTWO ROBÓT BUDOWLANYCH I TRANSPORTOWYCH \"CECHINI\" STANISŁAW I JÓZEF CECHINI SPÓŁKA JAWNA",
+    "provider_place": "ŻEGIESTÓW-ZDRÓJ",
+    "branch": "06",
+    "branch_name": "Małopolski OW NFZ",
+    "voivodeship": "małopolskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ae1e2805-9327-fcee-bec3-b072830d5710",
+        "agreement_code": "170061451260004",
+        "technical_code": "170061451260004",
+        "origin_code": "06-25-08-61451-01",
+        "amount_pln": 7984368.0,
+        "updated_at": "2026-04-16T19:00:49",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/ae1e2805-9327-fcee-bec3-b072830d5710?format=json&api-version=1.2"
+      },
+      {
+        "agreement_id": "1d8be442-2c6b-156e-7478-ebb35cd6b536",
+        "agreement_code": "170061451260002",
+        "technical_code": "170061451260002",
+        "origin_code": "06-24-08-61451-01",
+        "amount_pln": 10209580.92,
+        "updated_at": "2026-04-16T19:00:49",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/1d8be442-2c6b-156e-7478-ebb35cd6b536?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002315",
+    "provider_name": "\" UZDROWISKO HORYNIEC \"SP. Z O. O.",
+    "provider_place": "HORYNIEC-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "5851da9b-6237-580e-75aa-4235a38efd15",
+        "agreement_code": "170002315260002",
+        "technical_code": "170002315260002",
+        "origin_code": "0909101308202401",
+        "amount_pln": 11460310.82,
+        "updated_at": "2025-10-28T19:01:27",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/5851da9b-6237-580e-75aa-4235a38efd15?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060910",
+    "provider_name": "CENTRUM REHABILITACJI ROLNIKÓW KASY ROLNICZEGO UBEZPIECZENIA SPOŁECZNEGO W HORYŃCU ZDROJU",
+    "provider_place": "HORYNIEC-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "dbf50aee-7611-b0b7-ecba-f922c95c3b77",
+        "agreement_code": "170060910260002",
+        "technical_code": "170060910260002",
+        "origin_code": "0909111108202401",
+        "amount_pln": 1732435.04,
+        "updated_at": "2025-11-04T19:01:50",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/dbf50aee-7611-b0b7-ecba-f922c95c3b77?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061007",
+    "provider_name": "NZOZ SANATORIUM UZDROWISKOWE\"BAJKA\" BEATA KRUKOWSKA-BANIA",
+    "provider_place": "HORYNIEC-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "187be331-ce38-c3eb-ecfb-602ddf712d39",
+        "agreement_code": "170061007260002",
+        "technical_code": "170061007260002",
+        "origin_code": "0909115008202401",
+        "amount_pln": 6911177.7,
+        "updated_at": "2025-11-06T19:01:32",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/187be331-ce38-c3eb-ecfb-602ddf712d39?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002278",
+    "provider_name": "\"UZDROWISKO IWONICZ\" SPÓŁKA AKCYJNA",
+    "provider_place": "IWONICZ-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "534f2c8e-0835-b356-cacd-17caf042d448",
+        "agreement_code": "170002278260002",
+        "technical_code": "170002278260002",
+        "origin_code": "0909100208202401",
+        "amount_pln": 27533253.09,
+        "updated_at": "2026-01-30T19:00:41",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/534f2c8e-0835-b356-cacd-17caf042d448?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060964",
+    "provider_name": "CENTRUM PROMOCJI ZDROWIA \"SANVIT\" ODDZIAŁ IWONICZ ZDRÓJ NZOZ",
+    "provider_place": "IWONICZ-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "7f358e91-349f-8573-75f8-06275820e840",
+        "agreement_code": "170060964260002",
+        "technical_code": "170060964260002",
+        "origin_code": "0909114908202401",
+        "amount_pln": 5603792.46,
+        "updated_at": "2025-10-29T19:01:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7f358e91-349f-8573-75f8-06275820e840?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002287",
+    "provider_name": "GÓRNICZE SANATORIUM ZWIĄZKOWE \"GÓRNIK\"",
+    "provider_place": "IWONICZ-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f04f57f1-c2b7-ab10-a44c-034b7f0ac97d",
+        "agreement_code": "170002287260002",
+        "technical_code": "170002287260002",
+        "origin_code": "0909100408202401",
+        "amount_pln": 13954839.78,
+        "updated_at": "2026-02-17T19:00:30",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f04f57f1-c2b7-ab10-a44c-034b7f0ac97d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "90000010",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"PIAST\"",
+    "provider_place": "IWONICZ-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "dd89596a-6ae1-0527-c178-d5744ee6d337",
+        "agreement_code": "090000010260002",
+        "technical_code": "090000010260002",
+        "origin_code": "0909105608202401",
+        "amount_pln": 8732535.0,
+        "updated_at": "2025-10-27T19:01:07",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/dd89596a-6ae1-0527-c178-d5744ee6d337?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002320",
+    "provider_name": "FUNDACJA POMOC SANATORIUM UZDROWISKOWE \"SOLINKA\" ODDZIAŁ W POLAŃCZYKU",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "dd3e8d06-5a1c-9d9d-ec04-56b905846e01",
+        "agreement_code": "170002320260002",
+        "technical_code": "170002320260002",
+        "origin_code": "0909103208202401",
+        "amount_pln": 12794411.28,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/dd3e8d06-5a1c-9d9d-ec04-56b905846e01?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002280",
+    "provider_name": "N Z O Z SANATORIUM UZDROWISKOWE \"PLON\" SPÓŁKA Z O.O.",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2b301c7a-ea47-d557-159c-599b141ab442",
+        "agreement_code": "170002280260002",
+        "technical_code": "170002280260002",
+        "origin_code": "0909101708202401",
+        "amount_pln": 0.0,
+        "updated_at": "2026-01-02T19:00:19",
+        "related_url": null
+      }
+    ]
+  },
+  {
+    "provider_code": "170060161",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE  \"ATRIUM\"",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b0851a2c-5e6c-d2c6-223a-b938ed6ce63c",
+        "agreement_code": "170060161260002",
+        "technical_code": "170060161260002",
+        "origin_code": "0909117308202401",
+        "amount_pln": 903826.56,
+        "updated_at": "2025-11-04T19:01:50",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b0851a2c-5e6c-d2c6-223a-b938ed6ce63c?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "90000009",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE AMERPOL",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ee027d0e-5238-556a-2cd3-52103f6705a4",
+        "agreement_code": "090000009260002",
+        "technical_code": "090000009260002",
+        "origin_code": "0909116508202401",
+        "amount_pln": 9786248.22,
+        "updated_at": "2026-04-22T19:00:10",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/ee027d0e-5238-556a-2cd3-52103f6705a4?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061736",
+    "provider_name": "PLON SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "a53e3d3d-20f5-1a2c-4b54-f822d2209299",
+        "agreement_code": "170061736260001",
+        "technical_code": "170061736260001",
+        "origin_code": "0909117608202601",
+        "amount_pln": 11861687.04,
+        "updated_at": "2026-03-02T19:01:10",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/a53e3d3d-20f5-1a2c-4b54-f822d2209299?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061687",
+    "provider_name": "SANATORIUM DEDAL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "POLAŃCZYK",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "fe938d2e-26e9-bfb6-900c-12d1e2bb21d7",
+        "agreement_code": "170061687260002",
+        "technical_code": "170061687260002",
+        "origin_code": "0909117508202401",
+        "amount_pln": 8343313.44,
+        "updated_at": "2025-10-28T19:01:27",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/fe938d2e-26e9-bfb6-900c-12d1e2bb21d7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002304",
+    "provider_name": "\"UZDROWISKO RYMANÓW\" S.A.",
+    "provider_place": "RYMANÓW-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "0f549827-4c30-1581-6103-92c2665e7d96",
+        "agreement_code": "170002304260002",
+        "technical_code": "170002304260002",
+        "origin_code": "0909100108202401",
+        "amount_pln": 32297076.54,
+        "updated_at": "2025-10-31T19:01:15",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/0f549827-4c30-1581-6103-92c2665e7d96?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002279",
+    "provider_name": "ŚWIERKOWY ZDRÓJ MEDICAL SPA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "RYMANÓW-ZDRÓJ",
+    "branch": "09",
+    "branch_name": "Podkarpacki OW NFZ",
+    "voivodeship": "podkarpackie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b2fdb4d4-d1e4-432a-8a12-670f7536e649",
+        "agreement_code": "170002279260002",
+        "technical_code": "170002279260002",
+        "origin_code": "0909100908202401",
+        "amount_pln": 17015968.2,
+        "updated_at": "2025-10-28T19:01:27",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b2fdb4d4-d1e4-432a-8a12-670f7536e649?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061686",
+    "provider_name": "SANATORIUM AUGUSTÓW \"PAŁAC NA WODZIE\"  FALKOWSKI",
+    "provider_place": "AUGUSTÓW",
+    "branch": "10",
+    "branch_name": "Podlaski OW NFZ",
+    "voivodeship": "podlaskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b4055ebb-b9aa-ecc2-5f85-683eddcf1037",
+        "agreement_code": "170061686260002",
+        "technical_code": "170061686260002",
+        "origin_code": "10-00-61686-24-02-08",
+        "amount_pln": 3193612.8,
+        "updated_at": "2025-10-23T19:01:01",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b4055ebb-b9aa-ecc2-5f85-683eddcf1037?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002284",
+    "provider_name": "SANATORIUM UZDROWISKOWE AUGUSTÓW",
+    "provider_place": "AUGUSTÓW",
+    "branch": "10",
+    "branch_name": "Podlaski OW NFZ",
+    "voivodeship": "podlaskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "13af7e96-5120-ca81-69c8-bef6821052a7",
+        "agreement_code": "170002284260002",
+        "technical_code": "170002284260002",
+        "origin_code": "10-00-02284-24-06-08",
+        "amount_pln": 11147704.68,
+        "updated_at": "2025-10-23T19:01:01",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/13af7e96-5120-ca81-69c8-bef6821052a7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061692",
+    "provider_name": "HOLMED UZDROWISKO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "BRAK DANYCH",
+    "branch": "10",
+    "branch_name": "Podlaski OW NFZ",
+    "voivodeship": "podlaskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "130de63b-cf40-fe11-4c83-3bf408f83392",
+        "agreement_code": "170061692260002",
+        "technical_code": "170061692260002",
+        "origin_code": "10-00-61692-24-03-08",
+        "amount_pln": 11826347.4,
+        "updated_at": "2025-10-24T19:01:13",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/130de63b-cf40-fe11-4c83-3bf408f83392?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060166",
+    "provider_name": "\" UZDROWISKO SOPOT \" SP. Z O.O.",
+    "provider_place": "SOPOT",
+    "branch": "11",
+    "branch_name": "Pomorski OW NFZ",
+    "voivodeship": "pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "c8d3e1e4-ca49-b213-66bd-c6592c50f668",
+        "agreement_code": "170060166260001",
+        "technical_code": "170060166260001",
+        "origin_code": "170060166230003",
+        "amount_pln": 14455404.18,
+        "updated_at": "2025-10-21T19:00:53",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/c8d3e1e4-ca49-b213-66bd-c6592c50f668?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060633",
+    "provider_name": "SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SANATORIUM UZDROWISKOWE MINISTERSTWA SPRAW WEWNĘTRZNYCH I ADMINISTRACJI W SOPOCIE",
+    "provider_place": "SOPOT",
+    "branch": "11",
+    "branch_name": "Pomorski OW NFZ",
+    "voivodeship": "pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f79e9286-69a9-f9ca-90a5-3db8ac7ab69d",
+        "agreement_code": "170060633260001",
+        "technical_code": "170060633260001",
+        "origin_code": "170060633230003",
+        "amount_pln": 17678171.28,
+        "updated_at": "2025-10-21T19:00:53",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f79e9286-69a9-f9ca-90a5-3db8ac7ab69d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061711",
+    "provider_name": "WOJEWÓDZKI SZPITAL SPECJALISTYCZNY IM. JANUSZA KORCZAKA W SŁUPSKU SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "SŁUPSK",
+    "branch": "11",
+    "branch_name": "Pomorski OW NFZ",
+    "voivodeship": "pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "7ee0b2e5-69c0-cab0-e647-4cf0d1aa514b",
+        "agreement_code": "170061711260001",
+        "technical_code": "170061711260001",
+        "origin_code": "170061711",
+        "amount_pln": 10318936.32,
+        "updated_at": "2025-12-31T19:01:11",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7ee0b2e5-69c0-cab0-e647-4cf0d1aa514b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061021",
+    "provider_name": "DOM WCZASOWO-SANATORYJNY 'PERŁA\" W USTCE SP. Z O.O.",
+    "provider_place": "USTKA",
+    "branch": "11",
+    "branch_name": "Pomorski OW NFZ",
+    "voivodeship": "pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "eb6aa58a-612f-d44e-f0b0-5083c69c7dce",
+        "agreement_code": "170061021260001",
+        "technical_code": "170061021260001",
+        "origin_code": "170061021230004",
+        "amount_pln": 8483034.0,
+        "updated_at": "2025-10-21T19:00:53",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/eb6aa58a-612f-d44e-f0b0-5083c69c7dce?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002300",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD LECZNICTWA UZDROWISKOWEGO SANATORIUM \"TĘCZA\"",
+    "provider_place": "USTKA",
+    "branch": "11",
+    "branch_name": "Pomorski OW NFZ",
+    "voivodeship": "pomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "14b7d385-6d32-ff7d-11e1-fd7b76adce87",
+        "agreement_code": "170002300260001",
+        "technical_code": "170002300260001",
+        "origin_code": "170002300230003",
+        "amount_pln": 12549900.3,
+        "updated_at": "2025-10-21T19:00:53",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/14b7d385-6d32-ff7d-11e1-fd7b76adce87?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060962",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ SZPITAL UZDROWISKOWY WITAL",
+    "provider_place": "GOŁDAP",
+    "branch": "14",
+    "branch_name": "Warmińsko-Mazurski OW NFZ",
+    "voivodeship": "warmińsko-mazurskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "d197b83a-d9d7-b101-7130-096e884be292",
+        "agreement_code": "170060962260002",
+        "technical_code": "170060962260002",
+        "origin_code": "14-24-08-60962-01",
+        "amount_pln": 2260435.52,
+        "updated_at": "2026-01-23T19:00:20",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/d197b83a-d9d7-b101-7130-096e884be292?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061688",
+    "provider_name": "PRZEDSIĘBIORSTWO WIELOBRANŻOWE WITAL OLIWIA SMITH",
+    "provider_place": "GOŁDAP",
+    "branch": "14",
+    "branch_name": "Warmińsko-Mazurski OW NFZ",
+    "voivodeship": "warmińsko-mazurskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "9fbc113b-1fdc-4bc6-99a9-4138bddd8f34",
+        "agreement_code": "170061688260002",
+        "technical_code": "170061688260002",
+        "origin_code": "14-24-08-61688-01",
+        "amount_pln": 18192622.9,
+        "updated_at": "2026-04-10T19:00:24",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/9fbc113b-1fdc-4bc6-99a9-4138bddd8f34?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061738",
+    "provider_name": "ACCESSMEDICA MICHAŁ DANOWSKI SP K",
+    "provider_place": "OLSZTYN",
+    "branch": "14",
+    "branch_name": "Warmińsko-Mazurski OW NFZ",
+    "voivodeship": "warmińsko-mazurskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ac5dc06d-2574-d329-b032-09af6df8b120",
+        "agreement_code": "170061738260002",
+        "technical_code": "170061738260002",
+        "origin_code": "14-26-08-61738-01",
+        "amount_pln": 6501400.0,
+        "updated_at": "2026-03-18T19:00:59",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/ac5dc06d-2574-d329-b032-09af6df8b120?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061598",
+    "provider_name": "BURSZTYN MEDICAL SPA & WELLNESS SANATORIUM UZDROWISKOWE SPÓŁKA CYWILNA",
+    "provider_place": "BOBOLIN",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "378013c3-80c8-648e-0b3f-dc7bd3436a31",
+        "agreement_code": "170061598260002",
+        "technical_code": "170061598260002",
+        "origin_code": "16-24-08-61598-01",
+        "amount_pln": 5191620.8,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/378013c3-80c8-648e-0b3f-dc7bd3436a31?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061695",
+    "provider_name": "MSU GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "BYDGOSZCZ",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "cbdfdf3b-c5d5-d813-86ac-4df05f088fe7",
+        "agreement_code": "170061695260002",
+        "technical_code": "170061695260002",
+        "origin_code": "16-24-08-61695-01",
+        "amount_pln": 11131744.6,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/cbdfdf3b-c5d5-d813-86ac-4df05f088fe7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061642",
+    "provider_name": "DUKAT MEDICAL SPA - SANATORIUM UZDROWISKOWE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "DĄBKI",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "8bd3ff3e-0b9c-6b4f-0fa2-319f40e7473c",
+        "agreement_code": "170061642260003",
+        "technical_code": "170061642260003",
+        "origin_code": "16-24-08-61642-01",
+        "amount_pln": 18894802.46,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/8bd3ff3e-0b9c-6b4f-0fa2-319f40e7473c?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060159",
+    "provider_name": "INTERFERIE S.A. - SANATORIUM UZDROWISKOWE \"ARGENTYT\" W DĄBKACH",
+    "provider_place": "DĄBKI",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "4bbd633e-b816-7e6e-4011-4085f50ba537",
+        "agreement_code": "170060159260002",
+        "technical_code": "170060159260002",
+        "origin_code": "16-24-08-60159-01",
+        "amount_pln": 30945124.0,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/4bbd633e-b816-7e6e-4011-4085f50ba537?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061647",
+    "provider_name": "SANATORIUM UZDROWISKOWE CENTRUM MEDYCZNE HCP",
+    "provider_place": "DĄBKI",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ca3c9938-fc2a-c7be-6f10-36f7c789e41d",
+        "agreement_code": "170061647260002",
+        "technical_code": "170061647260002",
+        "origin_code": "16-24-08-61647-01",
+        "amount_pln": 8859424.77,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/ca3c9938-fc2a-c7be-6f10-36f7c789e41d?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061433",
+    "provider_name": "SUSMED SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "DĄBKI",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "17b23906-b20d-e9e7-2b7e-210e1425ce27",
+        "agreement_code": "170061433260002",
+        "technical_code": "170061433260002",
+        "origin_code": "16-24-08-61433-01",
+        "amount_pln": 22717873.97,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/17b23906-b20d-e9e7-2b7e-210e1425ce27?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002328",
+    "provider_name": "NIEPUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ PPUH \"DEKOM\" SPÓŁKA Z O.O. SANATORIUM UZDROWISKOWE \"BAŁTYK\"",
+    "provider_place": "GDAŃSK",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "326bb170-20af-867e-3a18-77a9846cabbf",
+        "agreement_code": "170002328260002",
+        "technical_code": "170002328260002",
+        "origin_code": "16-24-08-02328-01",
+        "amount_pln": 10064253.2,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/326bb170-20af-867e-3a18-77a9846cabbf?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002329",
+    "provider_name": "\"UZDROWISKO KAMIEŃ POMORSKI\" SPÓŁKA AKCYJNA",
+    "provider_place": "KAMIEŃ POMORSKI",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "fd7fca26-c90d-31f2-1176-b6e53c8303ac",
+        "agreement_code": "170002329260002",
+        "technical_code": "170002329260002",
+        "origin_code": "16-24-08-02329-03",
+        "amount_pln": 30174541.42,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/fd7fca26-c90d-31f2-1176-b6e53c8303ac?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002317",
+    "provider_name": "\" UZDROWISKO KOŁOBRZEG\"  S.A.",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "0bd65afe-6821-770c-ba89-8abe744268b0",
+        "agreement_code": "170002317260002",
+        "technical_code": "170002317260002",
+        "origin_code": "16-24-08-02317-01",
+        "amount_pln": 58532994.48,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/0bd65afe-6821-770c-ba89-8abe744268b0?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061445",
+    "provider_name": "CENTRUM REHABILITACJI I ODNOWY BIOLOGICZNEJ  SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, SPÓŁKA KOMANDYTOWA",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "c535ddff-2b2f-3408-1975-8728497edb3a",
+        "agreement_code": "170061445260002",
+        "technical_code": "170061445260002",
+        "origin_code": "16-24-08-61445-01",
+        "amount_pln": 19686486.4,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/c535ddff-2b2f-3408-1975-8728497edb3a?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060959",
+    "provider_name": "CENTRUM ZDROWIA I RELAKSU \"VERANO\" SPÓŁKA Z O. O.",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "cfe02b61-d7e8-7e61-9641-91f299b0de78",
+        "agreement_code": "170060959260002",
+        "technical_code": "170060959260002",
+        "origin_code": "16-24-08-60959-01",
+        "amount_pln": 29959120.0,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/cfe02b61-d7e8-7e61-9641-91f299b0de78?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061002",
+    "provider_name": "OŚRODEK SANATORYJNO-WYPOCZYNKOWY \"POSEJDON\" SP. Z O.O.",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "332b4976-a1a3-9b57-7594-b6da8318d8ee",
+        "agreement_code": "170061002260002",
+        "technical_code": "170061002260002",
+        "origin_code": "16-24-08-61002-01",
+        "amount_pln": 13431153.8,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/332b4976-a1a3-9b57-7594-b6da8318d8ee?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060164",
+    "provider_name": "PRZEDSIĘBIORSTWO USŁUGOWE \"HOLTUR\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "727564ae-43d3-d833-638d-cf4fb948aa70",
+        "agreement_code": "170060164260002",
+        "technical_code": "170060164260002",
+        "origin_code": "16-24-08-60164-01",
+        "amount_pln": 20200600.96,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/727564ae-43d3-d833-638d-cf4fb948aa70?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060907",
+    "provider_name": "SAMODZIELNY PUBLICZNY  ZAKŁAD OPIEKI ZDROWOTNEJ  SANATORIUM UZDROWISKOWE MINISTERSTWA SPRAW WEWNĘTRZNYCH I ADMINISTRACJI W KOŁOBRZEGU",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "ce478215-d899-e273-9afe-fcfc637c9e73",
+        "agreement_code": "170060907260002",
+        "technical_code": "170060907260002",
+        "origin_code": "16-24-08-60907-02",
+        "amount_pln": 27138789.46,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/ce478215-d899-e273-9afe-fcfc637c9e73?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061011",
+    "provider_name": "SAN SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "30742cc4-1ade-4b1b-f998-21610d5d6466",
+        "agreement_code": "170061011260002",
+        "technical_code": "170061011260002",
+        "origin_code": "16-24-08-61011-01",
+        "amount_pln": 5278451.14,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/30742cc4-1ade-4b1b-f998-21610d5d6466?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002251",
+    "provider_name": "SANATORIUM  UZDROWISKOWE MESKO ADAM MACIEJEWSKI",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "61d0ea85-4e95-cd91-d6a9-f6148e3a1dd1",
+        "agreement_code": "170002251260002",
+        "technical_code": "170002251260002",
+        "origin_code": "16-24-08-02251-01",
+        "amount_pln": 16931120.28,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/61d0ea85-4e95-cd91-d6a9-f6148e3a1dd1?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002321",
+    "provider_name": "SANATORIUM UZDROWISKOWE ARKA - MEGA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "9f3707a6-c1c7-1f99-b29b-29a39f9239ce",
+        "agreement_code": "170002321260002",
+        "technical_code": "170002321260002",
+        "origin_code": "16-24-08-02321-01",
+        "amount_pln": 62519000.5,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/9f3707a6-c1c7-1f99-b29b-29a39f9239ce?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061470",
+    "provider_name": "SANATORIUM UZDROWISKOWE WISTOM",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "f12f3030-802d-a1f9-3168-4cb47e1ea80e",
+        "agreement_code": "170061470260002",
+        "technical_code": "170061470260002",
+        "origin_code": "16-24-08-61470-01",
+        "amount_pln": 14813409.3,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/f12f3030-802d-a1f9-3168-4cb47e1ea80e?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060165",
+    "provider_name": "SZPITAL UZDROWISKOWY \" WILLA FORTUNA\" SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ",
+    "provider_place": "KOŁOBRZEG",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "d7613c5e-5026-d8c1-5817-27d8f6f5edd7",
+        "agreement_code": "170060165260002",
+        "technical_code": "170060165260002",
+        "origin_code": "16-24-08-60165-01",
+        "amount_pln": 8173309.16,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/d7613c5e-5026-d8c1-5817-27d8f6f5edd7?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002318",
+    "provider_name": "UZDROWISKO POŁCZYN GRUPA PGU SPÓŁKA AKCYJNA",
+    "provider_place": "POŁCZYN-ZDRÓJ",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "0a86ecd8-9b38-0e8e-734b-431eb7f45b45",
+        "agreement_code": "170002318260002",
+        "technical_code": "170002318260002",
+        "origin_code": "16-24-08-02318-02",
+        "amount_pln": 62072807.4,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/0a86ecd8-9b38-0e8e-734b-431eb7f45b45?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002312",
+    "provider_name": "\"UZDROWISKO ŚWINOUJŚCIE\" S.A.",
+    "provider_place": "ŚWINOUJŚCIE",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "3d7d652c-61e6-6980-9158-1564b8f0be65",
+        "agreement_code": "170002312260002",
+        "technical_code": "170002312260002",
+        "origin_code": "16-24-08-02312-02",
+        "amount_pln": 54257541.62,
+        "updated_at": "2026-05-04T19:00:55",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/3d7d652c-61e6-6980-9158-1564b8f0be65?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002281",
+    "provider_name": "ZRZESZENIE ZWIĄZKÓW ZAWODOWYCH ENERGETYKÓW - SANATORIUM UZDROWISKOWE \"ENERGETYK\"",
+    "provider_place": "ŚWINOUJŚCIE",
+    "branch": "16",
+    "branch_name": "Zachodniopomorski OW NFZ",
+    "voivodeship": "zachodniopomorskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "eb285f16-ce4f-5864-e413-ce4bad4caa38",
+        "agreement_code": "170002281260002",
+        "technical_code": "170002281260002",
+        "origin_code": "16-24-08-02281-01",
+        "amount_pln": 11487046.0,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/eb285f16-ce4f-5864-e413-ce4bad4caa38?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061596",
+    "provider_name": "SANATORIUM \"UZDROWISKO UNIEJÓW PARK\"",
+    "provider_place": "UNIEJÓW",
+    "branch": "05",
+    "branch_name": "Łódzki OW NFZ",
+    "voivodeship": "łódzkie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b7a437ee-f30f-a34c-57ae-317be66c7f86",
+        "agreement_code": "170061596260002",
+        "technical_code": "170061596260002",
+        "origin_code": "05-24-08-61596-01",
+        "amount_pln": 3093812.4,
+        "updated_at": "2026-01-05T19:00:24",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b7a437ee-f30f-a34c-57ae-317be66c7f86?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060512",
+    "provider_name": "UZDROWISKO GOCZAŁKOWICE-ZDRÓJ SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "GOCZAŁKOWICE-ZDRÓJ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "061c332f-e223-4673-e09f-b58312f87a0b",
+        "agreement_code": "170060512260002",
+        "technical_code": "170060512260002",
+        "origin_code": "12-24-08-60512-01",
+        "amount_pln": 22081214.64,
+        "updated_at": "2026-03-31T19:00:44",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/061c332f-e223-4673-e09f-b58312f87a0b?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060965",
+    "provider_name": "ZESPÓŁ SANATORYJNO-SZPITALNY REHABILITACJI NARZADU RUCHU \"GWAREK\"",
+    "provider_place": "GOCZAŁKOWICE-ZDRÓJ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "7e6396c6-3ab0-b8ca-34d0-097bce6dcfb3",
+        "agreement_code": "170060965260002",
+        "technical_code": "170060965260002",
+        "origin_code": "12-24-08-60965-01",
+        "amount_pln": 5546371.11,
+        "updated_at": "2026-03-05T19:00:14",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/7e6396c6-3ab0-b8ca-34d0-097bce6dcfb3?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061712",
+    "provider_name": "\"HOTEL RÓŻA\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "USTROŃ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "47585399-f776-abc1-86ff-3bbcccb33a53",
+        "agreement_code": "170061712260002",
+        "technical_code": "170061712260002",
+        "origin_code": "12-24-08-61712-01",
+        "amount_pln": 1796407.2,
+        "updated_at": "2026-03-06T19:00:21",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/47585399-f776-abc1-86ff-3bbcccb33a53?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002324",
+    "provider_name": "AMERICAN HEART OF POLAND SPÓŁKA AKCYJNA",
+    "provider_place": "USTROŃ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "02f91c7e-be14-c9b6-0f53-6eabe6f4f169",
+        "agreement_code": "170002324260003",
+        "technical_code": "170002324260003",
+        "origin_code": "12-24-08-02324-01",
+        "amount_pln": 73092426.67,
+        "updated_at": "2026-04-24T19:00:18",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/02f91c7e-be14-c9b6-0f53-6eabe6f4f169?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061001",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"MALWA\" SPÓŁKA Z O.O.",
+    "provider_place": "USTROŃ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "896694b8-ff89-6ff0-d0b1-4bf1a373fa21",
+        "agreement_code": "170061001260002",
+        "technical_code": "170061001260002",
+        "origin_code": "12-24-08-61001-01",
+        "amount_pln": 8124015.06,
+        "updated_at": "2026-04-28T19:00:33",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/896694b8-ff89-6ff0-d0b1-4bf1a373fa21?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061004",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"ZŁOCIEŃ\"",
+    "provider_place": "USTROŃ",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "b568ba54-4f5e-1115-c2c1-060417fad280",
+        "agreement_code": "170061004260002",
+        "technical_code": "170061004260002",
+        "origin_code": "12-24-08-61004-01",
+        "amount_pln": 13773242.7,
+        "updated_at": "2026-04-09T19:00:20",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/b568ba54-4f5e-1115-c2c1-060417fad280?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061318",
+    "provider_name": "NIEPUBLICZNY WIELOSPECJALISTYCZNY ZAKŁAD OPIEKI ZDROWOTNEJ ZABRZAŃSKIE CENTRUM OPIEKI MEDYCZNEJ \"SALUBRIS\"",
+    "provider_place": "ZABRZE",
+    "branch": "12",
+    "branch_name": "Śląski OW NFZ",
+    "voivodeship": "śląskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "aeeb54da-c395-af0e-8f0f-9cc3fd8c5313",
+        "agreement_code": "170061318260002",
+        "technical_code": "170061318260002",
+        "origin_code": "12-24-08-61318-01",
+        "amount_pln": 18509212.68,
+        "updated_at": "2026-04-02T19:00:50",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/aeeb54da-c395-af0e-8f0f-9cc3fd8c5313?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002301",
+    "provider_name": "\"UZDROWISKO BUSKO-ZDRÓJ\" SPÓŁKA AKCYJNA",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "32a6f0c6-6710-947e-a3f0-98c6ea454bd5",
+        "agreement_code": "170002301260002",
+        "technical_code": "170002301260002",
+        "origin_code": "13-24-08-02301-01",
+        "amount_pln": 43553467.58,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/32a6f0c6-6710-947e-a3f0-98c6ea454bd5?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060568",
+    "provider_name": "21 WOJSKOWY SZPITAL UZDROWISKOWO-REHABILITACYJNY SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W  BUSKU-ZDROJU",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "51408853-7ab5-8e61-0760-175b984b6101",
+        "agreement_code": "170060568260002",
+        "technical_code": "170060568260002",
+        "origin_code": "13-24-08-60568-01",
+        "amount_pln": 2506497.0,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/51408853-7ab5-8e61-0760-175b984b6101?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170002303",
+    "provider_name": "FEDERACJA NSZZ PRZEMYSŁU LEKKIEGO SANATORIUM \"WŁÓKNIARZ\" W BUSKU-ZDROJU",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "00607d4b-f78c-2652-8ec8-b2303e3d3c5e",
+        "agreement_code": "170002303260002",
+        "technical_code": "170002303260002",
+        "origin_code": "13-24-08-02303-01",
+        "amount_pln": 29604465.8,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/00607d4b-f78c-2652-8ec8-b2303e3d3c5e?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061440",
+    "provider_name": "PRZEDSIĘBIORSTWO WIELOBRANŻOWE \"AG I M\" S.C. SANATORIUM \"ZBYSZKO\" W BUSKU-ZDROJU",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "0314c5a1-0a29-f8be-f833-c4c2c18c1432",
+        "agreement_code": "170061440260002",
+        "technical_code": "170061440260002",
+        "origin_code": "13-24-08-61440-01",
+        "amount_pln": 7689620.82,
+        "updated_at": "2026-04-07T19:01:08",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/0314c5a1-0a29-f8be-f833-c4c2c18c1432?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170061690",
+    "provider_name": "SANATORIA  \"SŁOWACKI\"  SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "e76c0b19-6594-8896-c24c-485c2204b8c2",
+        "agreement_code": "170061690260002",
+        "technical_code": "170061690260002",
+        "origin_code": "13-24-08-61690-01",
+        "amount_pln": 24554085.0,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/e76c0b19-6594-8896-c24c-485c2204b8c2?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "130000001",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"ASTORIA\" W ZBLUDOWICACH",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "bf2108b1-6e51-3745-3901-34d7d851d25a",
+        "agreement_code": "130000001260002",
+        "technical_code": "130000001260002",
+        "origin_code": "13-24-08-00001-01",
+        "amount_pln": 32237692.2,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/bf2108b1-6e51-3745-3901-34d7d851d25a?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060639",
+    "provider_name": "SANATORIUM UZDROWISKOWE \"NIDA - ZDRÓJ\" SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "provider_place": "BUSKO-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "2eb19027-fa7d-347c-4591-c5bfd9e03f48",
+        "agreement_code": "170060639260002",
+        "technical_code": "170060639260002",
+        "origin_code": "13-24-08-60639-01",
+        "amount_pln": 14532282.24,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/2eb19027-fa7d-347c-4591-c5bfd9e03f48?format=json&api-version=1.2"
+      }
+    ]
+  },
+  {
+    "provider_code": "170060162",
+    "provider_name": "\"UZDROWISKO SOLEC-ZDRÓJ\" M. CZ. SZTUK SPÓŁKA JAWNA",
+    "provider_place": "SOLEC-ZDRÓJ",
+    "branch": "13",
+    "branch_name": "Świętokrzyski OW NFZ",
+    "voivodeship": "świętokrzyskie",
+    "year": 2026,
+    "service_type": "08",
+    "service_name": "Lecznictwo uzdrowiskowe",
+    "agreements": [
+      {
+        "agreement_id": "436c3648-83f8-7f75-86cf-2da5d8406033",
+        "agreement_code": "170060162260002",
+        "technical_code": "170060162260002",
+        "origin_code": "13-24-08-60162-01",
+        "amount_pln": 16814503.8,
+        "updated_at": "2026-05-05T19:00:57",
+        "related_url": "https://api.nfz.gov.pl/app-umw-api/agreements/436c3648-83f8-7f75-86cf-2da5d8406033?format=json&api-version=1.2"
+      }
+    ]
+  }
+]
