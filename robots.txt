@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sanatorianfz.ocenatorium.pl/sitemap.xml
