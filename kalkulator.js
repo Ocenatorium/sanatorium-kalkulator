@@ -12,8 +12,8 @@ const stayTypeSelect = document.getElementById("stayTypeSelect");
 const seasonSelect = document.getElementById("seasonSelect");
 const roomSelect = document.getElementById("roomSelect");
 const stayDaysPreview = document.getElementById("stayDaysPreview");
-const nfzStayDaysResult = document.getElementById("nfzStayDaysResult");
-const privateStayDaysResult = document.getElementById("privateStayDaysResult");
+const nfzStaySummaryResult = document.getElementById("nfzStaySummaryResult");
+const privateStaySummaryResult = document.getElementById("privateStaySummaryResult");
 
 const patientTotalResult = document.getElementById("patientTotalResult");
 const nfzDailyResult = document.getElementById("nfzDailyResult");
@@ -22,8 +22,8 @@ const totalStayValueResult = document.getElementById("totalStayValueResult");
 const privateDailyResult = document.getElementById("privateDailyResult");
 const privateTotalResult = document.getElementById("privateTotalResult");
 
-const privateDailyLabel = document.getElementById("privateDailyLabelText");
-const privateTotalLabel = document.getElementById("privateTotalLabelText");
+const privateDailyScopeText = document.getElementById("privateDailyScopeText");
+const privateTotalScopeText = document.getElementById("privateTotalScopeText");
 const stayTypeDetails = document.getElementById("stayTypeDetails");
 const roomTypeDetails = document.getElementById("roomTypeDetails");
 const daysDetails = document.getElementById("daysDetails");
@@ -495,21 +495,23 @@ function setText(element, value) {
 
 function updateStayDaysPreview() {
     const stayConfig = getStayConfig();
+    const roomLabel = getSelectedRoomLabel();
+    const shortRoomLabel = getShortRoomLabel(roomLabel);
 
-    let nfzDaysText = "";
-    let privateDaysText = "";
+    let nfzSummaryText = "";
+    let privateSummaryText = "";
 
     if (stayConfig.days === 0) {
-        nfzDaysText = "6–18 dni";
-        privateDaysText = "—";
+        nfzSummaryText = "6–18 dni\nbez noclegu";
+        privateSummaryText = "—";
     } else {
-        nfzDaysText = `${stayConfig.days} dni`;
-        privateDaysText = `${stayConfig.days} dni`;
+        nfzSummaryText = `${stayConfig.days} dni\n${shortRoomLabel}`;
+        privateSummaryText = `${stayConfig.days} dni\npokój 2-osobowy z łazienką`;
     }
 
-    setText(stayDaysPreview, nfzDaysText);
-    setText(nfzStayDaysResult, nfzDaysText);
-    setText(privateStayDaysResult, privateDaysText);
+    setText(stayDaysPreview, stayConfig.days === 0 ? "6–18 dni" : `${stayConfig.days} dni`);
+    setText(nfzStaySummaryResult, nfzSummaryText);
+    setText(privateStaySummaryResult, privateSummaryText);
 }
 
 function getPrivateSeasonKey() {
@@ -551,13 +553,21 @@ function getPrivateScopeText(voivodeship) {
     return `Średnia z woj. ${voivodeship} dla pobytów prywatnych`;
 }
 
-function updatePrivateResultLabels(privatePriceInfo) {
-    const scopeText = privatePriceInfo
-        ? getPrivateScopeText(privatePriceInfo.voivodeship)
-        : "Średnia dla pobytów prywatnych";
+function getPrivateScopeShortText(voivodeship) {
+    if (!voivodeship || voivodeship === "POLSKA") {
+        return "(Polska)";
+    }
 
-    setText(privateDailyLabel, scopeText);
-    setText(privateTotalLabel, scopeText);
+    return `(woj. ${voivodeship})`;
+}
+
+function updatePrivateResultLabels(privatePriceInfo) {
+    const shortScopeText = privatePriceInfo
+        ? getPrivateScopeShortText(privatePriceInfo.voivodeship)
+        : "(Polska)";
+
+    setText(privateDailyScopeText, shortScopeText);
+    setText(privateTotalScopeText, shortScopeText);
 }
 
 function getPrivatePriceInfo(days, selectedSanatorium) {
@@ -600,6 +610,39 @@ function getSelectedRoomLabel() {
     }
 
     return selectedOption.textContent || "—";
+}
+
+function getShortRoomLabel(roomLabel) {
+    const text = normalizeText(roomLabel);
+
+    if (
+        text.includes("dwuosobow") ||
+        text.includes("2-os") ||
+        text.includes("2 os") ||
+        text.includes("2os")
+    ) {
+        if (
+            text.includes("pelnym wezlem") ||
+            text.includes("pelny wezel") ||
+            text.includes("lazien") ||
+            text.includes("łazien")
+        ) {
+            return "pokój 2-osobowy z łazienką";
+        }
+
+        return "pokój 2-osobowy";
+    }
+
+    if (
+        text.includes("jednoosobow") ||
+        text.includes("1-os") ||
+        text.includes("1 os") ||
+        text.includes("1os")
+    ) {
+        return "pokój 1-osobowy";
+    }
+
+    return roomLabel;
 }
 
 function normalizeText(value) {

@@ -2171,3 +2171,250 @@ tr:hover {
 .top-city-people {
   font-size: 0.95rem;
 }
+/* ===== NOWY UKŁAD KAFELKÓW WYNIKU KALKULATORA ===== */
+
+.result-nfz-stay {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.result-patient-total {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.result-nfz-daily {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.result-nfz-total {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.result-total-value {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.result-private-stay {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.private-result-group.result-private-daily {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.private-result-group.result-private-total {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.result-box small {
+  display: block;
+  margin-top: 8px;
+  color: #6b5a42;
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.result-private-stay strong {
+  font-size: 1.15rem;
+}
+
+/* Telefon */
+@media (max-width: 900px) {
+  .result-nfz-stay,
+  .result-patient-total,
+  .result-nfz-daily,
+  .result-nfz-total,
+  .result-total-value,
+  .result-private-stay,
+  .private-result-group.result-private-daily,
+  .private-result-group.result-private-total {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .result-nfz-stay {
+    order: 1;
+  }
+
+  .result-patient-total {
+    order: 2;
+  }
+
+  .result-nfz-daily {
+    order: 3;
+  }
+
+  .result-nfz-total {
+    order: 4;
+  }
+
+  .result-total-value {
+    order: 5;
+  }
+
+  .result-private-stay {
+    order: 6;
+  }
+
+  .result-private-daily {
+    order: 7;
+  }
+
+  .result-private-total {
+    order: 8;
+  }
+
+  .result-private-stay strong {
+    font-size: 1.1rem;
+  }
+
+  .result-box small {
+    font-size: 0.8rem;
+  }
+}
+/* FIX: spokojniejsze wartości w kafelkach NFZ / Komercyjnie */
+
+.result-nfz-stay strong,
+.result-private-stay strong {
+  font-size: 0.92rem !important;
+  line-height: 1.32 !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  white-space: pre-line;
+}
+
+.result-nfz-stay span,
+.result-private-stay span {
+  font-size: 0.9rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 10px;
+  font-weight: 400 !important;
+}
+
+.result-private-stay small {
+  font-size: 0.78rem !important;
+  line-height: 1.3 !important;
+  font-weight: 400 !important;
+}
+
+/* trochę mniej wysokie, bo tekst nie jest już taki wielki */
+.result-nfz-stay,
+.result-private-stay {
+  min-height: 122px !important;
+  padding: 15px 18px !important;
+}
+
+@media (max-width: 900px) {
+  .result-nfz-stay strong,
+  .result-private-stay strong {
+    font-size: 0.9rem !important;
+    line-height: 1.32 !important;
+    font-weight: 500 !important;
+  }
+
+  .result-nfz-stay,
+  .result-private-stay {
+    min-height: 112px !important;
+  }
+}
+/* ===== FIX: równe kafelki wyniku + ładne podsumowanie dni/pokoju ===== */
+
+.calculator-result-grid {
+  align-items: stretch;
+}
+
+.result-box,
+.private-result-group .result-box {
+  height: 136px !important;
+  min-height: 136px !important;
+  justify-content: flex-start !important;
+  padding: 20px 20px 18px !important;
+}
+
+.result-box span,
+.result-box.private-small span {
+  min-height: 44px !important;
+  margin-bottom: 10px !important;
+  font-size: 0.9rem !important;
+  line-height: 1.25 !important;
+  font-weight: 400 !important;
+}
+
+/* zwykłe wartości kwot */
+.result-box strong,
+.result-box.private-small strong {
+  font-size: 1.45rem !important;
+  line-height: 1.15 !important;
+  font-weight: 900 !important;
+}
+
+/* tylko pierwsze kafelki: NFZ i Komercyjnie */
+.result-nfz-stay strong,
+.result-private-stay strong {
+  white-space: pre-line;
+  font-size: 0.92rem !important;
+  line-height: 1.35 !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+}
+
+/* pierwszy wiersz: 21 dni ma być widoczny, ale nie jak wielka kwota */
+.result-nfz-stay,
+.result-private-stay {
+  overflow: hidden;
+}
+
+/* dopisek pod komercyjnym */
+.result-private-stay small {
+  display: block;
+  margin-top: 8px;
+  color: #6b5a42;
+  font-size: 0.76rem !important;
+  line-height: 1.25 !important;
+  font-weight: 400 !important;
+}
+
+/* mobile */
+@media (max-width: 900px) {
+  .result-box,
+  .private-result-group .result-box {
+    height: auto !important;
+    min-height: 126px !important;
+    padding: 16px 18px !important;
+  }
+
+  .result-box span,
+  .result-box.private-small span {
+    min-height: 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .result-box strong,
+  .result-box.private-small strong {
+    font-size: 1.35rem !important;
+  }
+
+  .result-nfz-stay strong,
+  .result-private-stay strong {
+    font-size: 0.95rem !important;
+    line-height: 1.35 !important;
+    font-weight: 500 !important;
+  }
+}
+#privateDailyScopeText,
+#privateTotalScopeText {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  color: #6b5a42;
+  font-weight: 400;
+}

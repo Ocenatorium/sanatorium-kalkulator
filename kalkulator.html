@@ -33,7 +33,7 @@
       <p>
         Wybierz rodzaj pobytu, sezon i typ pokoju. Kalkulator pokaże dopłatę pacjenta,
         kwotę finansowaną przez NFZ oraz porównanie ze średnim kosztem pobytu prywatnego
-        (uzyskanym z cenników dostęnych on-line)
+        (uzyskanym z cenników dostępnych on-line).
       </p>
 
       <p>
@@ -109,23 +109,18 @@
       </div>
 
       <section class="calculator-result-grid" aria-label="Wynik kalkulatora">
-        <div class="result-box result-nfz-days">
-          <span>Pobyt z NFZ</span>
-          <strong id="nfzStayDaysResult">—</strong>
-        </div>
-
-        <div class="result-box private result-private-days">
-          <span>Pobyt prywatnie</span>
-          <strong id="privateStayDaysResult">—</strong>
+        <div class="result-box result-nfz-stay">
+          <span>NFZ - ilość dni i pokój</span>
+          <strong id="nfzStaySummaryResult">—</strong>
         </div>
 
         <div class="result-box result-patient-total">
-          <span>Twoja dopłata za cały pobyt</span>
+          <span>NFZ - Twoja dopłata za cały pobyt</span>
           <strong id="patientTotalResult">—</strong>
         </div>
 
         <div class="result-box result-nfz-daily">
-          <span>NFZ za osobodzień</span>
+          <span>NFZ - za osobodzień</span>
           <strong id="nfzDailyResult">—</strong>
         </div>
 
@@ -139,141 +134,146 @@
           <strong id="totalStayValueResult">—</strong>
         </div>
 
+        <div class="result-box private result-private-stay">
+          <span>Komercyjnie - ilość dni i pokój</span>
+          <strong id="privateStaySummaryResult">—</strong>
+          <small>* co najmniej 3 zabiegi</small>
+        </div>
+
         <div class="private-result-group result-private-daily">
           <div class="result-box private private-small">
-            <span>Prywatnie za osobodzień: <span id="privateDailyLabelText">średnia dla pobytów prywatnych</span></span>
+            <span>
+              Komercyjnie - średnia kwota za osobodzień
+              <small id="privateDailyScopeText">(Polska)</small>
+            </span>
             <strong id="privateDailyResult">—</strong>
           </div>
         </div>
 
         <div class="private-result-group result-private-total">
           <div class="result-box private private-small">
-            <span>Prywatnie cały pobyt: <span id="privateTotalLabelText">średnia dla pobytów prywatnych</span></span>
+            <span>
+              Komercyjnie - średnia kwota za cały pobyt
+              <small id="privateTotalScopeText">(Polska)</small>
+            </span>
             <strong id="privateTotalResult">—</strong>
           </div>
         </div>
-
-        <p class="private-price-note result-private-note">
-          * Pobyt prywatny: pokój 2-osobowy, min. 3 zabiegi i wyżywienie.
-        </p>
-      </section>
-      <div id="comparisonBox" class="comparison-box hidden-feature">
-        <span>Porównanie dla pokoju 2-osobowego</span>
-        <strong id="comparisonValue">—</strong>
-        <p id="comparisonText">
-          Wybierz dane, aby zobaczyć różnicę między szacunkową wartością pobytu NFZ
-          w pokoju 2-osobowym a średnią ceną prywatną.
-        </p>
-      </div>
-
-      <section class="calculation-table-wrapper hidden-feature">
-        <table class="payments-table calculation-table">
-          <thead>
-            <tr>
-              <th>Pozycja</th>
-              <th>Wartość</th>
-              <th>Jak liczono</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Długość pobytu</td>
-              <td id="daysDetails">—</td>
-              <td>Wybrany rodzaj pobytu.</td>
-            </tr>
-            <tr>
-              <td>Rodzaj pobytu</td>
-              <td id="stayTypeDetails">—</td>
-              <td>Wybrany rodzaj pobytu.</td>
-            </tr>
-
-            <tr>
-              <td>Typ pokoju</td>
-              <td id="roomTypeDetails">—</td>
-              <td>Wybrany „Typ pokoju”.</td>
-            </tr>
-            <tr>
-              <td>Dzienna dopłata pacjenta</td>
-              <td id="dailyFeeDetails">—</td>
-              <td>Stawka z tabeli dopłat NFZ dla wybranego sezonu i typu pokoju.</td>
-            </tr>
-
-            <tr>
-              <td>Dopłata pacjenta za cały pobyt</td>
-              <td id="patientTotalDetails">—</td>
-              <td>Dzienna dopłata pacjenta × liczba dni pobytu.</td>
-            </tr>
-
-            <tr>
-              <td>Finansowanie NFZ za osobodzień</td>
-              <td id="nfzDailyDetails">—</td>
-              <td>Stawka za osobodzień z danych o umowie NFZ dla wybranego ośrodka.</td>
-            </tr>
-
-            <tr>
-              <td>Finansowanie NFZ za cały pobyt</td>
-              <td id="nfzTotalDetails">—</td>
-              <td>Stawka NFZ za osobodzień × liczba dni pobytu.</td>
-            </tr>
-
-            <tr>
-              <td>Razemw artość pobytu NFZ</td>
-              <td id="totalStayValueDetails">—</td>
-              <td>Dopłata pacjenta + finansowanie NFZ.</td>
-            </tr>
-
-            <tr>
-              <td>Prywatnie — średni osobodzień</td>
-              <td id="privateDailyDetails">—</td>
-              <td>
-                Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
-                Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska.
-                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
-              </td>
-            </tr>
-
-            <tr>
-              <td>Prywatnie — szacowany koszt pobytu</td>
-              <td id="privateTotalDetails">—</td>
-              <td>
-                Średni osobodzień prywatnie × liczba dni pobytu.
-                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
-              </td>
-            </tr>
-          </tbody>
-        </table>
       </section>
 
-      <p class="small calculator-note">
-        Wynik ma charakter orientacyjny. Dopłata pacjenta obejmuje ustawową dopłatę
-        do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
-        pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
-      </p>
+        <section class="calculation-table-wrapper hidden-feature">
+          <table class="payments-table calculation-table">
+            <thead>
+              <tr>
+                <th>Pozycja</th>
+                <th>Wartość</th>
+                <th>Jak liczono</th>
+              </tr>
+            </thead>
 
-      <details class="private-sources-details" id="privateSourcesDetails">
-        <summary>
-          <span class="private-sources-summary-icon">i</span>
-          <span>
-            <strong>Skąd policzono średnie ceny prywatne?</strong>
-            <small>Kliknij, aby zobaczyć ośrodków użytych do obliczeń.</small>
-          </span>
-        </summary>
+            <tbody>
+              <tr>
+                <td>Długość pobytu</td>
+                <td id="daysDetails">—</td>
+                <td>Wybrany rodzaj pobytu.</td>
+              </tr>
 
-        <div class="private-sources-content">
-          <p id="privateSourcesIntro">
-            Lista ośrodków użytych do obliczenia średniej ceny prywatnego pobytu.
-          </p>
+              <tr>
+                <td>Rodzaj pobytu</td>
+                <td id="stayTypeDetails">—</td>
+                <td>Wybrany rodzaj pobytu.</td>
+              </tr>
 
-          <ul id="privateSourcesList" class="private-sources-list"></ul>
-          <button type="button" id="togglePrivateSourcesButton" class="private-sources-toggle">
-            Pokaż całą listę źródeł…
-          </button>
-        </div>
-      </details>
-    </section>
+              <tr>
+                <td>Typ pokoju</td>
+                <td id="roomTypeDetails">—</td>
+                <td>Wybrany „Typ pokoju”.</td>
+              </tr>
+
+              <tr>
+                <td>Dzienna dopłata pacjenta</td>
+                <td id="dailyFeeDetails">—</td>
+                <td>Stawka z tabeli dopłat NFZ dla wybranego sezonu i typu pokoju.</td>
+              </tr>
+
+              <tr>
+                <td>Dopłata pacjenta za cały pobyt</td>
+                <td id="patientTotalDetails">—</td>
+                <td>Dzienna dopłata pacjenta × liczba dni pobytu.</td>
+              </tr>
+
+              <tr>
+                <td>Finansowanie NFZ za osobodzień</td>
+                <td id="nfzDailyDetails">—</td>
+                <td>Stawka za osobodzień z danych o umowie NFZ dla wybranego ośrodka.</td>
+              </tr>
+
+              <tr>
+                <td>Finansowanie NFZ za cały pobyt</td>
+                <td id="nfzTotalDetails">—</td>
+                <td>Stawka NFZ za osobodzień × liczba dni pobytu.</td>
+              </tr>
+
+              <tr>
+                <td>Razem wartość pobytu NFZ</td>
+                <td id="totalStayValueDetails">—</td>
+                <td>Dopłata pacjenta + finansowanie NFZ.</td>
+              </tr>
+
+              <tr>
+                <td>Prywatnie — średni osobodzień</td>
+                <td id="privateDailyDetails">—</td>
+                <td>
+                  Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
+                  Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska.
+                  Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Prywatnie — szacowany koszt pobytu</td>
+                <td id="privateTotalDetails">—</td>
+                <td>
+                  Średni osobodzień prywatnie × liczba dni pobytu.
+                  Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <p class="small calculator-note">
+          Wynik ma charakter orientacyjny. Dopłata pacjenta obejmuje ustawową dopłatę
+          do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
+          pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
+        </p>
+
+        <details class="private-sources-details" id="privateSourcesDetails">
+          <summary>
+            <span class="private-sources-summary-icon">i</span>
+            <span>
+              <strong>Skąd policzono średnie ceny prywatne?</strong>
+              <small>Kliknij, aby zobaczyć ośrodki użyte do obliczeń.</small>
+            </span>
+          </summary>
+
+          <div class="private-sources-content">
+            <p id="privateSourcesIntro">
+              Lista ośrodków użytych do obliczenia średniej ceny prywatnego pobytu.
+            </p>
+
+            <ul id="privateSourcesList" class="private-sources-list"></ul>
+
+            <button type="button" id="togglePrivateSourcesButton" class="private-sources-toggle">
+              Pokaż całą listę źródeł…
+            </button>
+          </div>
+        </details>
+      </section>
   </main>
 
   <script src="kalkulator.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 
 </html>
