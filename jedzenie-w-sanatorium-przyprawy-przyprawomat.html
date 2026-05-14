@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sanatoryjny survival smakowy — podręczny przyprawomat</title>
+  <meta name="description"
+    content="Sanatoryjny survival smakowy: wybierz, czego potrzebujesz, a podręczny przyprawomat podpowie, jakie przyprawy zabrać i do czego je dodawać." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .spice-intro {
+      margin-bottom: 1.5rem;
+    }
+
+    .spice-machine {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      border-radius: 1.25rem;
+      background: #fff8ed;
+      border: 1px solid #f1d9b5;
+    }
+
+    .spice-machine h2 {
+      margin-top: 0;
+    }
+
+    .spice-machine-lead {
+      max-width: 760px;
+      margin-bottom: 1rem;
+    }
+
+    .spice-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      margin: 1.25rem 0;
+    }
+
+    .spice-btn {
+      border: 1px solid #d7a85f;
+      background: #ffffff;
+      border-radius: 999px;
+      padding: 0.65rem 0.95rem;
+      font: inherit;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .spice-btn:hover,
+    .spice-btn.active {
+      background: #ffe0a6;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(122, 79, 19, 0.12);
+    }
+
+    .spice-result {
+      margin-top: 1.25rem;
+      padding: 1.25rem;
+      border-radius: 1rem;
+      background: #ffffff;
+      border: 1px solid #efd2a6;
+    }
+
+    .spice-result h3 {
+      margin-top: 0;
+    }
+
+    .spice-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+      padding: 0;
+      list-style: none;
+      margin: 1rem 0 0;
+    }
+
+    .spice-card {
+      padding: 1rem;
+      border-radius: 1rem;
+      background: #fffaf3;
+      border: 1px solid #f0ddbf;
+    }
+
+    .spice-card strong {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .spice-jar {
+      width: 1.45rem;
+      height: 1.45rem;
+      border-radius: 0.35rem 0.35rem 0.45rem 0.45rem;
+      background: linear-gradient(to bottom,
+          #dbeafe 0 22%,
+          var(--jar-color, #d6a35c) 23% 78%,
+          #ffffff 79% 100%);
+      border: 1px solid #c7d2e3;
+      box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.45);
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .spice-jar::before {
+      content: "";
+      position: absolute;
+      top: -0.25rem;
+      left: 0.28rem;
+      right: 0.28rem;
+      height: 0.28rem;
+      border-radius: 999px;
+      background: #9ca3af;
+    }
+
+    .spice-card span {
+      display: block;
+      margin-top: 0.35rem;
+    }
+
+    .jar-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin: 1rem 0 1.25rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      background: #fff6e7;
+      border: 1px solid #efd7b2;
+    }
+
+    .jar-icon {
+      font-size: 2rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .jar-content strong {
+      display: block;
+      margin-bottom: 0.45rem;
+      font-size: 1rem;
+    }
+
+    .jar-content ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    .jar-content li+li {
+      margin-top: 0.25rem;
+    }
+
+    .spice-note {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="article-hero">
+    <div class="article-hero-inner">
+      <p class="eyebrow">Sanatorium z NFZ • praktyczne porady</p>
+      <h1>Jedzenie w sanatorium bez smaku? Weź własny zestaw przypraw</h1>
+      <p>
+        Małe dodatki, które mogą uratować herbatę, zupę, ziemniaki i rozgotowane mięso.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p><a href="faq.html">← Wróć do pytań o sanatorium</a></p>
+
+    <article class="content-card spice-article">
+      <section class="spice-intro">
+        <h2>Sanatoryjny (i nie tylko do sanatorium) survival smakowy</h2>
+
+        <p>
+          Jedzenie w sanatorium i innych miejscach poza domem bywa bardzo różne. Czasem jest całkiem dobre, a czasem
+          człowiek
+          patrzy na talerz 🤮 i zastanawia się, ile jeszcze można pogrzebać widelcem, zanim wypada dyskretnie
+          oddalić się na hamburgera 🍔 i chyłkiem napełnić brzuszek 😋 przed następnym zabiegiem.
+        </p>
+
+        <p>
+          W sanatoriach NFZ wybór jest ograniczony: przez kilka tygodni musimy jeść to, co podają 🍽️.
+          Jeśli jedzenie jest mało doprawione, porcje są skromne, a ceny w pobliskiej
+          restauracji prawie warszawskie 💰💰💰, to sanatoryjny obiad może stać się najtrudniejszym 😮‍💨
+          momentem dnia.
+        </p>
+
+        <p>
+          Na szczęście na smak może pomóc naprawdę mała rzecz: własny zestaw przypraw. Kilka saszetek
+          albo małych pojemniczków potrafi poprawić smak 🍲zupy , 🥔ziemniaków , 🍚kaszy , 🍖mięsa  czy 🍵herbaty.
+          To nie musi być pół kuchni w walizce 🧳 — wystarczy mini zestaw „dla smaku, zdrowia i humoru”,
+          który zmieści się w kosmetyczce albo małym woreczku.
+        </p>
+
+        <p>
+          Droga do zdrowia zaczyna się podobno od żołądka, więc zadbajmy też o jego dobre
+          samopoczucie. Odpowiednio dobrane przyprawy 🌿 nie tylko poprawiają smak, ale mogą też
+          dodać posiłkom charakteru, aromatu i odrobiny sanatoryjnej magii.
+        </p>
+      </section>
+
+      <section class="spice-machine" aria-labelledby="spice-machine-title">
+        <h2 id="spice-machine-title">Indywidualny przyprawomat podręczny dla Ciebie</h2>
+        <p class="spice-machine-lead">
+          Wybierz, czego potrzebujesz w sanatorium. Przyprawomat podpowie, co warto mieć w małym pudełku,
+          do czego to dodać i po co w ogóle taszczyć to w walizce.
+        </p>
+
+        <div class="spice-result" id="spiceResult">
+          <h3>Wybierz swój tryb 🌶️</h3>
+          <div class="spice-options" id="spiceOptions"></div>
+        </div>
+
+        <p class="spice-note">
+          Uwaga: to są luźne podpowiedzi kulinarne, nie zalecenia medyczne. Jeśli masz dietę zaleconą przez lekarza,
+          nadciśnienie, choroby nerek, refluks albo problemy z żołądkiem, uważaj szczególnie na sól, ostre mieszanki
+          i bardzo pikantne dodatki.
+        </p>
+      </section>
+
+      <p>
+        <a href="kalkulator.html">Sprawdź też kalkulator dopłat do sanatorium z NFZ →</a>
+      </p>
+    </article>
+  </main>
+
+  <script>
+    const spiceModes = [
+      {
+        id: "energia",
+        label: "⚡ Na rozruch i lepszy dzień",
+        title: "Na rozruch i lepszy dzień",
+        intro: "Gdy trzeba się trochę rozruszać, poprawić humor i dodać jedzeniu charakteru — od kawy i herbaty po sanatoryjny obiad, który niby jest, ale jakby bez przekonania.",
+        spices: [
+          {
+            name: "Cynamon",
+             color: "#b45309",
+            helps: "daje ciepły, deserowy aromat i pomaga zrobić coś przyjemniejszego bez dosypywania tony cukru",
+            use: "do kawy, herbaty, owsianki, jogurtu, twarożku, pieczonego jabłka"
+          },
+          {
+            name: "Imbir",
+             color: "#d97706",
+            helps: "lekko rozgrzewa, ożywia smak i daje wrażenie porannego albo spacerowego kopniaczka",
+            use: "do herbaty, wody z cytryną, owsianki, zupy krem"
+          },
+          {
+            name: "Kardamon",
+             color: "#6b8e23",
+            helps: "robi z kawy albo herbaty coś bardziej luksusowego",
+            use: "do kawy, herbaty, kakao, owsianki, jogurtu"
+          },
+
+          {
+            name: "Kakao albo wanilia",
+              color: "#8b5e34",
+            helps: "szczypta na lepszy humor i dziecięcą radość",
+            use: "do owsianki, jogurtu, twarożku, kawy, mlecznego napoju"
+          },
+
+          {
+            name: "Pieprz kolorowy",
+             color: "#7c3f1d",
+            helps: "dodaje charakteru i ożywia prawie każde danie i konsumującego",
+            use: "w praktyce do prawie wszystkiego, a dla odważnych nawet do słodyczy"
+          }
+        ]
+      },
+      {
+        id: "odpornosc",
+        label: "🛡️ Byle katarek mnie nie złapie",
+        title: "Byle katarek mnie nie złapie",
+        intro: "Tryb jesienno-sanatoryjny: po spacerze, po przewianiu, po kontakcie z kaszlącym panem z turnusu.",
+        spices: [
+          {
+            name: "Imbir",
+             color: "#d97706",
+            helps: "robi z herbaty małego ninja: ciepłego, ostrego i gotowego pogonić byle katarek",
+            use: "do herbaty, naparu, zupy, owsianki"
+          },
+          {
+            name: "Goździki",
+             color: "#7c2d12",
+            helps: "klasyk zimowych napojów: rozgrzewający, korzenny aromat i jak ciepły kocyk po spacerze",
+            use: "do herbaty, kompotu, wody z cytryną, naparu owocowego"
+          },
+          {
+            name: "Kurkuma + pieprz",
+              color: "#eab308",
+            helps: "robi efekt złotego eliksiru z etykietą „supermoce” — kolor, aromat i trochę kuchennej magii",
+            use: "do ryżu, kaszy, warzyw, zupy i jajek"
+          },
+          {
+            name: "Czosnek granulowany",
+             color: "#e7d8a8",
+            helps: "każdy wie, że czosnek odpędza złe moce — a przy okazji dodaje charakteru mdłym daniom",
+            use: "do zupy, ziemniaków, mięsa, kaszy, kanapek"
+          }
+        ]
+      },
+      {
+        id: "brzuszek",
+        label: "😌 Dbam o brzuszek",
+        title: "Dbam o brzuszek",
+        intro: "Łagodny zestaw do jedzenia, które jest ciężkie, mdłe albo podejrzanie pływa w sosie nieznanego pochodzenia.",
+        spices: [
+          {
+            name: "Majeranek",
+              color: "#6b8f3a",
+            helps: "klasyk do cięższych dań; kojarzy się z kuchnią, która próbuje być litościwa dla brzucha",
+            use: "do zupy, ziemniaków, kaszy, mięsa, fasolki"
+          },
+          {
+            name: "Kminek mielony",
+                 color: "#6b8f3a",
+            helps: "tradycyjnie dodawany do potraw wzdymających i cięższych",
+            use: "do kapusty, ziemniaków, zupy, pieczywa, past"
+          },
+          {
+            name: "Koperek suszony",
+            helps: "klasyk polskiego talerza — ratuje ziemniaki, twarożek i jajka, poprawia smak",
+            use: "do ziemniaków, jajek, twarożku, zupy, ryby"
+          }
+        ]
+      },
+      {
+        id: "bez-odbijania",
+        label: "🙊 Bez odbijania",
+        title: "Bez odbijania po obiedzie",
+        intro: "Gdy obiad był cięższy niż plan zabiegów, a Ty nie chcesz brzmieć jak stary kaloryfer na korytarzu.",
+        spices: [
+          {
+            name: "Mięta",
+            helps: "daje uczucie świeżości po posiłku",
+            use: "do herbaty, wody, lekkiego jogurtu"
+          },
+          {
+            name: "Koper włoski",
+            helps: "delikatny, anyżkowy smak; często kojarzony z komfortem trawiennym",
+            use: "do naparu, zupy, warzyw"
+          },
+          {
+            name: "Majeranek",
+            helps: "dobry do dań cięższych, zwłaszcza gdy kuchnia sanatoryjna idzie w kapustę i sosy",
+            use: "do zupy, mięsa, ziemniaków, dań jednogarnkowych"
+          }
+        ]
+      },
+      {
+        id: "smak",
+        label: "😋 Więcej smaku",
+        title: "Więcej smaku, mniej smutku na talerzu",
+        intro: "Najprostszy zestaw ratunkowy. Nie udaje medycyny. Po prostu robi z nijakiego jedzenia coś bardziej jadalnego.",
+        spices: [
+          {
+            name: "Pieprz czarny",
+            helps: "podkręca prawie wszystko i daje daniom wyraźniejszy charakter",
+            use: "do zupy, jajek, kanapek, mięsa, ziemniaków"
+          },
+          {
+            name: "Papryka wędzona",
+            color: "#c2410c",
+            helps: "ratunek dla mięsa bez charakteru. Poczuj, że żyjesz",
+            use: "do mięsa, ziemniaków, ryżu, kaszy, warzyw"
+          },
+          {
+            name: "Lubczyk",
+            helps: "dodaje zupie domowego, rosołowego charakteru, gdy smak się zgubił gdzieś po drodze",
+            use: "do rosołu, jarzynowej, krupniku, sosów"
+          }
+        ]
+      },
+      {
+        id: "ostro",
+        label: "🔥 Więcej smaku i bardzo ostro!",
+        title: "Więcej smaku i bardzo ostro!",
+        intro: "Dla osób, które patrzą na dietetyczny obiad i myślą: dobrze, ale gdzie tu jest zabawa?",
+        spices: [
+          {
+            name: "Chili",
+            helps: "daje ostrość, rozgrzanie i sprawia, że coś się dzieje",
+            use: "do zupy, jajek, mięsa, ziemniaków, sosu jogurtowego"
+          },
+          {
+            name: "Ostra papryka",
+            helps: "łatwiejsza do dawkowania niż chili, dobra do codziennego podkręcania smaku",
+            use: "do mięsa, kaszy, ryżu, warzyw, kanapek"
+          },
+          {
+            name: "Pieprz cayenne",
+            helps: "mały dodatek, ale za to z jakim wybuchowym charakterem",
+            use: "do zup, sosów, jajek, dań z ryżem"
+          }
+        ]
+      },
+      {
+        id: "metabolizm",
+        label: "🏃 A może podkręcę metabolizm?",
+        title: "A może podkręcę metabolizm?",
+        intro: "Małe dodatki, które robią posiłek bardziej wyrazisty i rozgrzewający. Ożywiają i ciebie i jedzenie.",
+        spices: [
+          {
+            name: "Chili lub pieprz cayenne",
+            helps: "dodaje ostrości i rozgrzewającego efektu — organizm dostaje sygnał: halo, coś się dzieje",
+            use: "do zupy, jajek, warzyw, mięsa"
+          },
+          {
+            name: "Imbir",
+            helps: "rozgrzewa, ożywia smak i dobrze pasuje do poranków, które zaczynają się zbyt powoli",
+            use: "do herbaty, wody z cytryną, owsianki, zupy"
+          },
+          {
+            name: "Pieprz czarny",
+            color: "#2f2f2f",
+            helps: "wzmacnia smak i dorzucają trochę energii",
+            use: "do jajek, zupy, mięsa, ziemniaków, twarożku"
+          }
+        ]
+      },
+      {
+        id: "profesjonalista",
+        label: "👩‍🍳 Poprawiam smaki jak profesjonalista",
+        title: "Poprawiam smaki jak profesjonalista",
+        intro: "Nie sypiesz wszystkiego naraz. Dobierasz akcent: świeżość, ziołowość albo głębia.",
+        spices: [
+          {
+            name: "Zioła prowansalskie",
+            helps: "robią francuski pozór elegancji nawet przy ziemniakach z wody",
+            use: "do warzyw, mięsa, kaszy, ryżu, twarożku"
+          },
+          {
+            name: "Pieprz cytrynowy",
+            helps: "dodaje świeżości, gdy posiłek są nudne",
+            use: "do jajek, twarożku, kanapek, ryby, warzyw"
+          },
+          {
+            name: "Tymianek",
+            helps: "dodaje ziołowego, lekko wytrawnego charakteru",
+            use: "do ryby, mięsa, zupy, warzyw"
+          },
+          {
+            name: "Oregano",
+            color: "#5f8f3a",
+            helps: "dodaje włoskiego klimatu i sprawia, że zwykłe warzywa, kanapka albo mięso są bardziej interesujące",
+            use: "do pomidorów, kanapek, sera, jajek, mięsa, warzyw i sosów"
+          },
+
+        ]
+      },
+      {
+        id: "eksperyment",
+        label: "🧪 Lubię eksperymentować",
+        title: "Lubię eksperymentować",
+        intro: "Tryb dla odważnych. Trochę sanatorium, trochę laboratorium, trochę: zobaczmy, co się stanie",
+        spices: [
+          {
+            name: "Czarnuszka",
+            helps: "ma lekko orzechowy, wyrazisty smak i robi nudną kanapkę bardziej ciekawą",
+            use: "do kanapek, jajek, twarożku, sałatki, pasty"
+          },
+          {
+            name: "Wędzona papryka + cynamon",
+            helps: "dziwny duet, ale w małej ilości daje głębię i lekką słodycz",
+            use: "do mięsa, warzyw, gulaszu, sosów"
+          },
+          {
+            name: "Kurkuma + imbir + pieprz",
+            helps: "złoty zestaw do dań, które potrzebują koloru i charakteru",
+            use: "do ryżu, kaszy, zupy, warzyw, jajek"
+          }
+        ]
+      }
+    ];
+
+    const resultContainer = document.getElementById("spiceResult");
+
+    function getSpiceColor(name) {
+      const lowerName = name
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+
+      if (lowerName.includes("pieprz czarny")) return "#2f2f2f";
+      if (lowerName.includes("pieprz kolorowy")) return "#7c3f1d";
+      if (lowerName.includes("pieprz cytrynowy")) return "#d9b441";
+      if (lowerName.includes("pieprz cayenne")) return "#b91c1c";
+
+      if (lowerName.includes("papryka wedzona")) return "#b45309";
+      if (lowerName.includes("ostra papryka")) return "#dc2626";
+      if (lowerName.includes("chili")) return "#ef4444";
+
+      if (lowerName.includes("kurkuma")) return "#eab308";
+      if (lowerName.includes("curry")) return "#d97706";
+
+      if (lowerName.includes("cynamon")) return "#9a5a22";
+      if (lowerName.includes("kardamon")) return "#7c9f35";
+      if (lowerName.includes("gozdziki")) return "#6b3f24";
+      if (lowerName.includes("imbir")) return "#d6a13a";
+      if (lowerName.includes("kakao")) return "#6b3f24";
+      if (lowerName.includes("wanilia")) return "#facc15";
+
+      if (lowerName.includes("czosnek")) return "#f3e4b0";
+      if (lowerName.includes("lubczyk")) return "#4d7c0f";
+      if (lowerName.includes("majeranek")) return "#6b8e3d";
+      if (lowerName.includes("oregano")) return "#5f8f3a";
+      if (lowerName.includes("tymianek")) return "#557a35";
+      if (lowerName.includes("ziola prowansalskie")) return "#6a8f3a";
+      if (lowerName.includes("koperek")) return "#6bbf59";
+      if (lowerName.includes("mieta")) return "#4ade80";
+      if (lowerName.includes("koper wloski")) return "#93c572";
+      if (lowerName.includes("kminek")) return "#8b6f47";
+      if (lowerName.includes("czarnuszka")) return "#1f2937";
+
+      return "#d6a35c";
+    }
+
+    function getOptionsHtml(activeModeId = null) {
+      return spiceModes.map((mode) => `
+        <button class="spice-btn${mode.id === activeModeId ? " active" : ""}" type="button" data-id="${mode.id}">${mode.label}</button>
+      `).join("");
+    }
+
+    function renderStart() {
+      resultContainer.innerHTML = `
+        <h3>Wybierz swój tryb 🌶️</h3>
+        <div class="spice-options" id="spiceOptions">
+          ${getOptionsHtml()}
+        </div>
+      `;
+    }
+
+    function renderMode(modeId) {
+      const mode = spiceModes.find((item) => item.id === modeId);
+      if (!mode) return;
+
+      resultContainer.innerHTML = `
+        <h3>${mode.title}</h3>
+        <div class="spice-options" id="spiceOptions">
+          ${getOptionsHtml(modeId)}
+        </div>
+        <div class="jar-box">
+          <div class="jar-icon" aria-hidden="true">🫙</div>
+          <div class="jar-content">
+            <strong>Do słoiczka / pudełeczka zabierz:</strong>
+            <ul>
+              ${mode.spices.map((spice) => `<li>${spice.name}</li>`).join("")}
+            </ul>
+          </div>
+        </div>
+        <p>${mode.intro}</p>
+        <ul class="spice-list">
+          ${mode.spices.map((spice) => `
+            <li class="spice-card">
+             <strong>
+  <span class="spice-jar" style="--jar-color: ${spice.color || getSpiceColor(spice.name)}"></span>
+  ${spice.name}
+</strong>
+              <span><b>Po co:</b> ${spice.helps}.</span>
+              <span><b>Do czego:</b> ${spice.use}.</span>
+            </li>
+          `).join("")}
+        </ul>
+      `;
+    }
+
+    renderStart();
+
+    resultContainer.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-id]");
+      if (!button) return;
+      renderMode(button.dataset.id);
+    });
+  </script>
+
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+
+</html>
