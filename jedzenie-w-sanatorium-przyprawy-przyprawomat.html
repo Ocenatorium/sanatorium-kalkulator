@@ -179,58 +179,66 @@
 
     <article class="content-card spice-article">
       <section class="spice-intro">
-        <h2>Sanatoryjny (i nie tylko do sanatorium) survival smakowy</h2>
+        <h2>Sanatoryjny survival smakowy</h2>
 
         <p>
           Jedzenie w sanatorium i innych miejscach poza domem bywa bardzo różne. Czasem jest całkiem dobre, a czasem
-          człowiek
-          patrzy na talerz 🤮 i zastanawia się, ile jeszcze można pogrzebać widelcem, zanim wypada dyskretnie
+          człowiek patrzy na talerz 🤮 i zastanawia się, ile jeszcze można pogrzebać widelcem, zanim wypada dyskretnie
           oddalić się na hamburgera 🍔 i chyłkiem napełnić brzuszek 😋 przed następnym zabiegiem.
-        </p>
-
-        <p>
-          W sanatoriach NFZ wybór jest ograniczony: przez kilka tygodni musimy jeść to, co podają 🍽️.
-          Jeśli jedzenie jest mało doprawione, porcje są skromne, a ceny w pobliskiej
-          restauracji prawie warszawskie 💰💰💰, to sanatoryjny obiad może stać się najtrudniejszym 😮‍💨
-          momentem dnia.
-        </p>
-
-        <p>
-          Na szczęście na smak może pomóc naprawdę mała rzecz: własny zestaw przypraw. Kilka saszetek
-          albo małych pojemniczków potrafi poprawić smak 🍲zupy , 🥔ziemniaków , 🍚kaszy , 🍖mięsa  czy 🍵herbaty.
-          To nie musi być pół kuchni w walizce 🧳 — wystarczy mini zestaw „dla smaku, zdrowia i humoru”,
-          który zmieści się w kosmetyczce albo małym woreczku.
-        </p>
-
-        <p>
-          Droga do zdrowia zaczyna się podobno od żołądka, więc zadbajmy też o jego dobre
-          samopoczucie. Odpowiednio dobrane przyprawy 🌿 nie tylko poprawiają smak, ale mogą też
-          dodać posiłkom charakteru, aromatu i odrobiny sanatoryjnej magii.
         </p>
       </section>
 
       <section class="spice-machine" aria-labelledby="spice-machine-title">
-        <h2 id="spice-machine-title">Indywidualny przyprawomat podręczny dla Ciebie</h2>
-        <p class="spice-machine-lead">
-          Wybierz, czego potrzebujesz w sanatorium. Przyprawomat podpowie, co warto mieć w małym pudełku,
-          do czego to dodać i po co w ogóle taszczyć to w walizce.
+
+      
+          <h2 id="spice-machine-title">Indywidualny przyprawomat podręczny dla Ciebie</h2>
+          <p class="spice-machine-lead">
+            Wybierz, czego potrzebujesz w sanatorium. Przyprawomat podpowie, co warto mieć w małym pudełku,
+            do czego to dodać i po co w ogóle taszczyć to w walizce.
+          </p>
+
+          <div class="spice-result" id="spiceResult">
+            <h3>Wybierz swój tryb 🌶️</h3>
+            <div class="spice-options" id="spiceOptions"></div>
+          </div>
+
+          <p class="spice-note">
+            Uwaga: to są luźne podpowiedzi kulinarne, nie zalecenia medyczne. Jeśli masz dietę zaleconą przez lekarza,
+            nadciśnienie, choroby nerek, refluks albo problemy z żołądkiem, uważaj szczególnie na sól, ostre mieszanki
+            i bardzo pikantne dodatki.
+          </p>
+
+
+
+
+        </section>
+
+        <section class="spice-intro spice-after-machine">
+          <h2>Dlaczego mały przyprawnik może się przydać?</h2>
+
+          <p>
+            W sanatoriach NFZ wybór jest ograniczony: przez kilka tygodni musimy jeść to, co podają 🍽️.
+            Jeśli jedzenie jest mało doprawione, porcje są skromne, a ceny w pobliskiej
+            restauracji prawie warszawskie 💰💰💰, to sanatoryjny obiad może stać się najtrudniejszym 😮‍💨
+            momentem dnia.
+          </p>
+
+          <p>
+            Na szczęście na smak może pomóc naprawdę mała rzecz: własny zestaw przypraw. Kilka saszetek
+            albo małych pojemniczków potrafi poprawić smak zupy 🍲, ziemniaków 🥔, kaszy 🍚, mięsa 🍖 czy herbaty 🍵.
+            To nie musi być pół kuchni w walizce 🧳 — wystarczy mini zestaw „dla smaku, zdrowia i humoru”,
+            który zmieści się w kosmetyczce albo małym woreczku.
+          </p>
+
+          <p>
+            Droga do zdrowia zaczyna się podobno od żołądka, więc zadbajmy też o jego dobre
+            samopoczucie. Odpowiednio dobrane przyprawy 🌿 nie tylko poprawiają smak, ale mogą też
+            dodać posiłkom charakteru, aromatu i odrobiny sanatoryjnej magii.
+          </p>
+        </section>
+        <p>
+          <a href="kalkulator.html">Sprawdź też kalkulator dopłat do sanatorium z NFZ →</a>
         </p>
-
-        <div class="spice-result" id="spiceResult">
-          <h3>Wybierz swój tryb 🌶️</h3>
-          <div class="spice-options" id="spiceOptions"></div>
-        </div>
-
-        <p class="spice-note">
-          Uwaga: to są luźne podpowiedzi kulinarne, nie zalecenia medyczne. Jeśli masz dietę zaleconą przez lekarza,
-          nadciśnienie, choroby nerek, refluks albo problemy z żołądkiem, uważaj szczególnie na sól, ostre mieszanki
-          i bardzo pikantne dodatki.
-        </p>
-      </section>
-
-      <p>
-        <a href="kalkulator.html">Sprawdź też kalkulator dopłat do sanatorium z NFZ →</a>
-      </p>
     </article>
   </main>
 
@@ -244,33 +252,33 @@
         spices: [
           {
             name: "Cynamon",
-             color: "#b45309",
+            color: "#b45309",
             helps: "daje ciepły, deserowy aromat i pomaga zrobić coś przyjemniejszego bez dosypywania tony cukru",
             use: "do kawy, herbaty, owsianki, jogurtu, twarożku, pieczonego jabłka"
           },
           {
             name: "Imbir",
-             color: "#d97706",
+            color: "#d97706",
             helps: "lekko rozgrzewa, ożywia smak i daje wrażenie porannego albo spacerowego kopniaczka",
             use: "do herbaty, wody z cytryną, owsianki, zupy krem"
           },
           {
             name: "Kardamon",
-             color: "#6b8e23",
+            color: "#6b8e23",
             helps: "robi z kawy albo herbaty coś bardziej luksusowego",
             use: "do kawy, herbaty, kakao, owsianki, jogurtu"
           },
 
           {
             name: "Kakao albo wanilia",
-              color: "#8b5e34",
+            color: "#8b5e34",
             helps: "szczypta na lepszy humor i dziecięcą radość",
             use: "do owsianki, jogurtu, twarożku, kawy, mlecznego napoju"
           },
 
           {
             name: "Pieprz kolorowy",
-             color: "#7c3f1d",
+            color: "#7c3f1d",
             helps: "dodaje charakteru i ożywia prawie każde danie i konsumującego",
             use: "w praktyce do prawie wszystkiego, a dla odważnych nawet do słodyczy"
           }
@@ -284,25 +292,25 @@
         spices: [
           {
             name: "Imbir",
-             color: "#d97706",
+            color: "#d97706",
             helps: "robi z herbaty małego ninja: ciepłego, ostrego i gotowego pogonić byle katarek",
             use: "do herbaty, naparu, zupy, owsianki"
           },
           {
             name: "Goździki",
-             color: "#7c2d12",
+            color: "#7c2d12",
             helps: "klasyk zimowych napojów: rozgrzewający, korzenny aromat i jak ciepły kocyk po spacerze",
             use: "do herbaty, kompotu, wody z cytryną, naparu owocowego"
           },
           {
             name: "Kurkuma + pieprz",
-              color: "#eab308",
+            color: "#eab308",
             helps: "robi efekt złotego eliksiru z etykietą „supermoce” — kolor, aromat i trochę kuchennej magii",
             use: "do ryżu, kaszy, warzyw, zupy i jajek"
           },
           {
             name: "Czosnek granulowany",
-             color: "#e7d8a8",
+            color: "#e7d8a8",
             helps: "każdy wie, że czosnek odpędza złe moce — a przy okazji dodaje charakteru mdłym daniom",
             use: "do zupy, ziemniaków, mięsa, kaszy, kanapek"
           }
@@ -316,13 +324,13 @@
         spices: [
           {
             name: "Majeranek",
-              color: "#6b8f3a",
+            color: "#6b8f3a",
             helps: "klasyk do cięższych dań; kojarzy się z kuchnią, która próbuje być litościwa dla brzucha",
             use: "do zupy, ziemniaków, kaszy, mięsa, fasolki"
           },
           {
             name: "Kminek mielony",
-                 color: "#6b8f3a",
+            color: "#6b8f3a",
             helps: "tradycyjnie dodawany do potraw wzdymających i cięższych",
             use: "do kapusty, ziemniaków, zupy, pieczywa, past"
           },
