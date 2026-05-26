@@ -614,7 +614,7 @@ function getSelectedRoomLabel() {
 
 function getShortRoomLabel(roomLabel) {
     const text = normalizeText(roomLabel);
-
+    return text;
     if (
         text.includes("dwuosobow") ||
         text.includes("2-os") ||
