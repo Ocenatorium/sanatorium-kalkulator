@@ -28,7 +28,46 @@
   <main class="container">
     <p><a href="index.html">← Wróć do strony głównej</a></p>
 
-    <section class="content-card">
+    <section class="content-card analyses-section" aria-labelledby="analyses-heading">
+      <h2 id="analyses-heading">Analizy dostępne i planowane</h2>
+
+      <div class="analyses-grid">
+        <button class="analysis-card analysis-card-available is-active" type="button" data-target="city-contracts"
+          aria-pressed="true">
+          <span class="analysis-card-header">
+            <span class="analysis-title">Top miasta według kontraktów NFZ</span>
+            <span class="analysis-status analysis-status-available">Dostępne</span>
+          </span>
+          <span class="analysis-description">Ranking miejscowości uzdrowiskowych według łącznej wartości umów NFZ na lecznictwo uzdrowiskowe.</span>
+        </button>
+
+        <button class="analysis-card" type="button" data-target="year-changes" aria-pressed="false">
+          <span class="analysis-card-header">
+            <span class="analysis-title">Zmiany wartości umów rok do roku</span>
+            <span class="analysis-status">Planowane</span>
+          </span>
+          <span class="analysis-description">Analiza pokaże, które miejscowości i ośrodki zyskują lub tracą finansowanie w kolejnych latach.</span>
+        </button>
+
+        <button class="analysis-card" type="button" data-target="top-sanatoriums" aria-pressed="false">
+          <span class="analysis-card-header">
+            <span class="analysis-title">Największe sanatoria według wartości umów</span>
+            <span class="analysis-status">Planowane</span>
+          </span>
+          <span class="analysis-description">Zestawienie pojedynczych sanatoriów i uzdrowisk według wartości podpisanych umów z NFZ.</span>
+        </button>
+
+        <button class="analysis-card" type="button" data-target="funding-map" aria-pressed="false">
+          <span class="analysis-card-header">
+            <span class="analysis-title">Mapa finansowania uzdrowisk</span>
+            <span class="analysis-status">Planowane</span>
+          </span>
+          <span class="analysis-description">Przyszła analiza pokaże rozkład finansowania uzdrowisk według województw, miast i regionów.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="content-card analysis-panel" data-analysis-panel="city-contracts">
       <h2>Top miasta według wartości umów NFZ na lecznictwo uzdrowiskowe w 2026</h2>
       <p>
         Wykres pokazuje sumę wartości umów NFZ na lecznictwo uzdrowiskowe,
@@ -41,6 +80,18 @@
         <canvas id="cityContractsChart"></canvas>
       </div>
 
+    </section>
+
+    <section class="content-card analysis-panel is-hidden" data-analysis-panel="year-changes">
+      <p class="analysis-placeholder">Ta analiza zostanie dodana później.</p>
+    </section>
+
+    <section class="content-card analysis-panel is-hidden" data-analysis-panel="top-sanatoriums">
+      <p class="analysis-placeholder">Ta analiza zostanie dodana później.</p>
+    </section>
+
+    <section class="content-card analysis-panel is-hidden" data-analysis-panel="funding-map">
+      <p class="analysis-placeholder">Ta analiza zostanie dodana później.</p>
     </section>
   </main>
 

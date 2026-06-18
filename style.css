@@ -2017,6 +2017,127 @@ tr:hover {
 }
 /* ===== Wykresy ===== */
 
+.analyses-section {
+  margin-bottom: 22px;
+}
+
+.analyses-section h2 {
+  margin-bottom: 18px;
+}
+
+.analyses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.analysis-card {
+  width: 100%;
+  min-height: 148px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  font-family: inherit;
+  color: inherit;
+  border: 1px solid #d9e4f2;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 26px rgba(11, 40, 80, 0.055);
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.analysis-card:hover {
+  transform: translateY(-2px);
+  border-color: #b9cfe8;
+  box-shadow: 0 14px 32px rgba(11, 40, 80, 0.09);
+  background: #f8fbff;
+}
+
+.analysis-card.is-active {
+  border-color: #79a9dc;
+  background: linear-gradient(180deg, #ffffff 0%, #eef6ff 100%);
+  box-shadow: 0 16px 36px rgba(11, 40, 80, 0.12);
+}
+
+.analysis-card-available {
+  border-color: #b8dfca;
+  background: linear-gradient(180deg, #ffffff 0%, #f6fcf9 100%);
+}
+
+.analysis-card-available.is-active {
+  border-color: #65bf91;
+  background: linear-gradient(180deg, #ffffff 0%, #edf9f3 100%);
+}
+
+.analysis-card:focus-visible {
+  outline: 3px solid rgba(15, 63, 117, 0.26);
+  outline-offset: 3px;
+}
+
+.analysis-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.analysis-title {
+  color: #0b2850;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.analysis-status {
+  margin-left: auto;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef3f8;
+  color: #5b6b7d;
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.analysis-status-available {
+  background: #e7f5ee;
+  color: #087044;
+}
+
+.analysis-description {
+  display: block;
+  margin: 0;
+  color: #546173;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.analysis-panel {
+  margin-top: 18px;
+}
+
+.analysis-placeholder {
+  margin: 0;
+  padding: 26px;
+  border: 1px dashed #b9cfe8;
+  border-radius: 18px;
+  background: #f8fbff;
+  color: #546173;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
 .chart-card {
   position: relative;
   min-height: 520px;
@@ -2029,6 +2150,31 @@ tr:hover {
 }
 
 @media (max-width: 700px) {
+  .analyses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .analysis-card {
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .analysis-title {
+    font-size: 0.98rem;
+  }
+
+  .analysis-status {
+    font-size: 0.7rem;
+  }
+
+  .analysis-card-header {
+    align-items: flex-start;
+  }
+
+  .analysis-description {
+    font-size: 0.88rem;
+  }
+
   .chart-card {
     min-height: 620px;
     padding: 12px;
@@ -2792,4 +2938,3 @@ tr:hover {
     transform: none;
   }
 }
-

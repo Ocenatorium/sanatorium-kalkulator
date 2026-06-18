@@ -196,4 +196,56 @@ async function initCharts() {
   }
 }
 
+function initAnalysisSwitcher() {
+  const cards = document.querySelectorAll("[data-target]");
+  const panels = document.querySelectorAll("[data-analysis-panel]");
+
+  if (cards.length === 0 || panels.length === 0) {
+    return;
+  }
+
+  function hideAllPanels() {
+    panels.forEach(panel => {
+      panel.classList.add("is-hidden");
+    });
+  }
+
+  function deactivateAllCards() {
+    cards.forEach(card => {
+      card.classList.remove("is-active");
+      card.setAttribute("aria-pressed", "false");
+    });
+  }
+
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
+      const target = card.dataset.target;
+      const isActive = card.classList.contains("is-active");
+
+      deactivateAllCards();
+      hideAllPanels();
+
+      if (isActive) {
+        return;
+      }
+
+      card.classList.add("is-active");
+      card.setAttribute("aria-pressed", "true");
+
+      const panel = document.querySelector(`[data-analysis-panel="${target}"]`);
+      if (panel) {
+        panel.classList.remove("is-hidden");
+      }
+
+      if (target === "city-contracts") {
+        const chart = Chart.getChart("cityContractsChart");
+        if (chart) {
+          chart.resize();
+        }
+      }
+    });
+  });
+}
+
+initAnalysisSwitcher();
 initCharts();
