@@ -555,6 +555,29 @@ tr:hover {
   margin-bottom: 24px;
 }
 
+.calculator-info-box {
+  max-width: 920px;
+  margin: 22px 0 26px;
+  padding: 20px 22px;
+  border: 1px solid #d5e1ee;
+  border-radius: 18px;
+  background: #f8fbff;
+  box-shadow: 0 8px 20px rgba(15, 44, 82, 0.055);
+}
+
+.calculator-info-box h2 {
+  margin: 0 0 10px;
+  color: #0b2850;
+  font-size: 1.18rem;
+  line-height: 1.25;
+}
+
+.calculator-info-box p {
+  margin: 0;
+  color: #334966;
+  line-height: 1.65;
+}
+
 /* ===== POLA WYBORU KALKULATORA ===== */
 
 .calculator-grid {
