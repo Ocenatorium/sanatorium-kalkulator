@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Kalkulator dopłat do sanatorium z NFZ</title>
+  <title>Kalkulator dopłat do sanatorium NFZ 2026 | Ocenatorium</title>
   <meta name="description"
-    content="Kalkulator orientacyjnej dopłaty pacjenta do sanatorium z NFZ oraz szacunkowego finansowania pobytu przez NFZ." />
+    content="Oblicz orientacyjną dopłatę do sanatorium z NFZ w 2026 roku. Sprawdź koszt pobytu według rodzaju leczenia, sezonu, pokoju, województwa i wybranego sanatorium.">
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -110,32 +110,32 @@
 
       <section class="calculator-result-grid" aria-label="Wynik kalkulatora">
         <div class="result-box result-nfz-stay">
-          <span>NFZ - ilość dni i pokój</span>
+          <span>Pobyt NFZ — liczba dni i pokój</span>
           <strong id="nfzStaySummaryResult">—</strong>
         </div>
 
         <div class="result-box result-patient-total">
-          <span>NFZ - Twoja dopłata za cały pobyt</span>
+          <span>Twoja dopłata za cały pobyt</span>
           <strong id="patientTotalResult">—</strong>
         </div>
 
         <div class="result-box result-nfz-daily">
-          <span>NFZ - za osobodzień</span>
+          <span>Finansowanie NFZ za osobodzień</span>
           <strong id="nfzDailyResult">—</strong>
         </div>
 
         <div class="result-box result-nfz-total">
-          <span>NFZ — dopłata za cały pobyt</span>
+          <span>Finansowanie NFZ za cały pobyt</span>
           <strong id="nfzTotalResult">—</strong>
         </div>
 
         <div class="result-box highlight result-total-value">
-          <span>Razem wartość pobytu - finansowanie NFZ + dopłata pacjenta</span>
+          <span>RŁączna wartość pobytu — NFZ + dopłata pacjenta</span>
           <strong id="totalStayValueResult">—</strong>
         </div>
 
         <div class="result-box private result-private-stay">
-          <span>Komercyjnie - ilość dni i pokój</span>
+          <span>Pobyt prywatny — liczba dni i pokój</span>
           <strong id="privateStaySummaryResult">—</strong>
           <small>* co najmniej 3 zabiegi</small>
         </div>
@@ -143,7 +143,7 @@
         <div class="private-result-group result-private-daily">
           <div class="result-box private private-small">
             <span>
-              Komercyjnie - średnia kwota za osobodzień
+              Prywatnie — średnia kwota za osobodzień
               <small id="privateDailyScopeText">(Polska)</small>
             </span>
             <strong id="privateDailyResult">—</strong>
@@ -153,7 +153,7 @@
         <div class="private-result-group result-private-total">
           <div class="result-box private private-small">
             <span>
-              Komercyjnie - średnia kwota za cały pobyt
+              Prywatnie — średnia kwota za cały pobyt
               <small id="privateTotalScopeText">(Polska)</small>
             </span>
             <strong id="privateTotalResult">—</strong>
@@ -161,93 +161,112 @@
         </div>
       </section>
 
-        <section class="calculation-table-wrapper hidden-feature">
-          <table class="payments-table calculation-table">
-            <thead>
-              <tr>
-                <th>Pozycja</th>
-                <th>Wartość</th>
-                <th>Jak liczono</th>
-              </tr>
-            </thead>
+      <section class="calculation-table-wrapper hidden-feature">
+        <table class="payments-table calculation-table">
+          <thead>
+            <tr>
+              <th>Pozycja</th>
+              <th>Wartość</th>
+              <th>Jak liczono</th>
+            </tr>
+          </thead>
 
-            <tbody>
-              <tr>
-                <td>Długość pobytu</td>
-                <td id="daysDetails">—</td>
-                <td>Wybrany rodzaj pobytu.</td>
-              </tr>
+          <tbody>
+            <tr>
+              <td>Długość pobytu</td>
+              <td id="daysDetails">—</td>
+              <td>Wybrany rodzaj pobytu.</td>
+            </tr>
 
-              <tr>
-                <td>Rodzaj pobytu</td>
-                <td id="stayTypeDetails">—</td>
-                <td>Wybrany rodzaj pobytu.</td>
-              </tr>
+            <tr>
+              <td>Rodzaj pobytu</td>
+              <td id="stayTypeDetails">—</td>
+              <td>Wybrany rodzaj pobytu.</td>
+            </tr>
 
-              <tr>
-                <td>Typ pokoju</td>
-                <td id="roomTypeDetails">—</td>
-                <td>Wybrany „Typ pokoju”.</td>
-              </tr>
+            <tr>
+              <td>Typ pokoju</td>
+              <td id="roomTypeDetails">—</td>
+              <td>Wybrany „Typ pokoju”.</td>
+            </tr>
 
-              <tr>
-                <td>Dzienna dopłata pacjenta</td>
-                <td id="dailyFeeDetails">—</td>
-                <td>Stawka z tabeli dopłat NFZ dla wybranego sezonu i typu pokoju.</td>
-              </tr>
+            <tr>
+              <td>Dzienna dopłata pacjenta</td>
+              <td id="dailyFeeDetails">—</td>
+              <td>Stawka z tabeli dopłat NFZ dla wybranego sezonu i typu pokoju.</td>
+            </tr>
 
-              <tr>
-                <td>Dopłata pacjenta za cały pobyt</td>
-                <td id="patientTotalDetails">—</td>
-                <td>Dzienna dopłata pacjenta × liczba dni pobytu.</td>
-              </tr>
+            <tr>
+              <td>Dopłata pacjenta za cały pobyt</td>
+              <td id="patientTotalDetails">—</td>
+              <td>Dzienna dopłata pacjenta × liczba dni pobytu.</td>
+            </tr>
 
-              <tr>
-                <td>Finansowanie NFZ za osobodzień</td>
-                <td id="nfzDailyDetails">—</td>
-                <td>Stawka za osobodzień z danych o umowie NFZ dla wybranego ośrodka.</td>
-              </tr>
+            <tr>
+              <td>Finansowanie NFZ za osobodzień</td>
+              <td id="nfzDailyDetails">—</td>
+              <td>Stawka za osobodzień z danych o umowie NFZ dla wybranego ośrodka.</td>
+            </tr>
 
-              <tr>
-                <td>Finansowanie NFZ za cały pobyt</td>
-                <td id="nfzTotalDetails">—</td>
-                <td>Stawka NFZ za osobodzień × liczba dni pobytu.</td>
-              </tr>
+            <tr>
+              <td>Finansowanie NFZ za cały pobyt</td>
+              <td id="nfzTotalDetails">—</td>
+              <td>Stawka NFZ za osobodzień × liczba dni pobytu.</td>
+            </tr>
 
-              <tr>
-                <td>Razem wartość pobytu NFZ</td>
-                <td id="totalStayValueDetails">—</td>
-                <td>Dopłata pacjenta + finansowanie NFZ.</td>
-              </tr>
+            <tr>
+              <td>Razem wartość pobytu NFZ</td>
+              <td id="totalStayValueDetails">—</td>
+              <td>Dopłata pacjenta + finansowanie NFZ.</td>
+            </tr>
 
-              <tr>
-                <td>Prywatnie — średni osobodzień</td>
-                <td id="privateDailyDetails">—</td>
-                <td>
-                  Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
-                  Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska.
-                  Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
-                </td>
-              </tr>
+            <tr>
+              <td>Prywatnie — średni osobodzień</td>
+              <td id="privateDailyDetails">—</td>
+              <td>
+                Średnia z roboczego pliku cen prywatnych dla wybranego województwa i sezonu.
+                Jeśli nie wybierzesz województwa, używana jest średnia ogólnopolska.
+                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+              </td>
+            </tr>
 
-              <tr>
-                <td>Prywatnie — szacowany koszt pobytu</td>
-                <td id="privateTotalDetails">—</td>
-                <td>
-                  Średni osobodzień prywatnie × liczba dni pobytu.
-                  Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+            <tr>
+              <td>Prywatnie — szacowany koszt pobytu</td>
+              <td id="privateTotalDetails">—</td>
+              <td>
+                Średni osobodzień prywatnie × liczba dni pobytu.
+                Założenie: miejsce w pokoju 2-osobowym, wyżywienie i kilka zabiegów.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-        <p class="small calculator-note">
-          Wynik ma charakter orientacyjny. Dopłata pacjenta obejmuje ustawową dopłatę
-          do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
-          pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
-        </p>
+      <p class="small calculator-note">
+        Wynik ma charakter orientacyjny. Dopłata pacjenta obejmuje ustawową dopłatę
+        do zakwaterowania i wyżywienia. Nie obejmuje dojazdu, opłaty klimatycznej,
+        pobytu opiekuna ani usług dodatkowych. Kwota NFZ nie jest wypłacana pacjentowi.
+      </p>
 
+      <section class="related-links">
+        <h2>Zobacz też</h2>
+        <div class="related-links-grid">
+          <a href="sanatoria.html" class="related-link-card">
+            <span class="related-link-icon">🏥</span>
+            <span>Lista sanatoriów z umowami NFZ</span>
+          </a>
+          <a href="faq.html" class="related-link-card">
+            <span class="related-link-icon">❓</span>
+            <span>Najczęstsze pytania o sanatorium z NFZ</span>
+          </a>
+          <a href="wykresy.html" class="related-link-card">
+            <span class="related-link-icon">📊</span>
+            <span>Analizy i wykresy dotyczące umów NFZ</span>
+          </a>
+        </div>
+      </section>
+
+     
         <details class="private-sources-details" id="privateSourcesDetails">
           <summary>
             <span class="private-sources-summary-icon">i</span>
@@ -269,7 +288,7 @@
             </button>
           </div>
         </details>
-      </section>
+    </section>
   </main>
 
   <script src="kalkulator.js"></script>
